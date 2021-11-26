@@ -1,5 +1,44 @@
 // app global css in SCSS form
 
+@font-face {
+  font-family: "Terminus";
+  src: url(./fonts/Terminus.ttf);
+}
+
+body {
+  font-family: "Terminus";
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cdn.quasar.dev/img/parallax2.jpg");
+
+  height: 100vh;
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(7px);
+}
+
+.downloadBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  max-height: 56px;
+  max-width: 271px;
+}
+
 body.body--dark {
   background-color: #282a36;
 }
