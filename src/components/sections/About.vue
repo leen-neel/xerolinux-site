@@ -19,6 +19,8 @@
       settings etc.
     </p>
 
+    <q-video src="https://www.youtube.com/embed/UKg43SFtAL8" :ratio="16 / 9" />
+
     <p>
       So if you just want to get started doing everything yourself, "Core" is
       for you, but if you want the ease of doing less and being up and running
