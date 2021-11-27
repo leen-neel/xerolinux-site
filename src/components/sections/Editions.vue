@@ -26,15 +26,16 @@
         picture.
       </q-card-section>
 
-      <q-card-actions>
+      <q-card-actions align="right">
         <q-btn
-          label="Learn more"
+          label="More info & download"
           color="accent"
           class="btn"
           icon-right="arrow_forward"
           type="a"
           href="https://forum.xerolinux.xyz/thread-4.html"
           target="_blank"
+          style="font-size: 13px"
         />
       </q-card-actions>
     </q-card>
@@ -55,15 +56,16 @@
         compatibility.
       </q-card-section>
 
-      <q-card-actions>
+      <q-card-actions align="right">
         <q-btn
-          label="Learn more"
+          label="More info & download"
           color="accent"
           class="btn"
           icon-right="arrow_forward"
           type="a"
           href="https://forum.xerolinux.xyz/thread-14.html"
           target="_blank"
+          style="font-size: 13px"
         />
       </q-card-actions>
     </q-card>

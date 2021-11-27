@@ -1,5 +1,7 @@
 <template>
-  <div class="text-h2 q-mt-sm text-center q-pa-sm">About XeroLinux</div>
+  <div id="about" class="text-h2 q-mt-sm text-center q-pa-sm">
+    About XeroLinux
+  </div>
 
   <div class="text-left q-pa-md q-mt-sm">
     <p>
