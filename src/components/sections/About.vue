@@ -1,7 +1,7 @@
 <template>
-  <div class="text-h2 q-mt-xl text-center">About XeroLinux</div>
+  <div class="text-h2 q-mt-sm text-center q-pa-sm">About XeroLinux</div>
 
-  <div class="text-center q-mt-sm">
+  <div class="text-left q-pa-sm q-mt-sm">
     <p>
       This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
       personal project I am working on that I thought I would share, in case
@@ -24,9 +24,16 @@
       choice.
     </p>
 
-    <p>
-      As the saying goes... "If you can't find the best Distro for you, then
-      BUILD YOUR OWN!". That's the power of ArchLinux.
-    </p>
+    <p>As the saying goes...</p>
+
+    <q-card class="my-card">
+      <q-card-section>
+        <strong
+          >"If you can't find the best Distro for you, then BUILD YOUR
+          OWN!".</strong
+        >
+        That's the power of ArchLinux.
+      </q-card-section>
+    </q-card>
   </div>
 </template>
