@@ -6,21 +6,8 @@
       </div>
 
       <p class="q-mt-md text-center" style="font-size: 15px">
-        Welcome to XeroLiniux's official page!
+        A Custom Arch-Based Distro With KDE by <strong>DarkXero.</strong>
       </p>
-
-      <p class="q-mb-md text-center" style="font-size: 15px">
-        Feel free to look around and learn more about the distro.
-      </p>
-
-      <q-btn
-        class="btn"
-        color="primary"
-        icon="arrow_downward"
-        label="Editions"
-        type="a"
-        href="#about"
-      />
     </div>
   </div>
 </template>

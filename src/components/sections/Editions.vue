@@ -1,5 +1,7 @@
 <template>
-  <div class="text-h2 q-mt-sm text-center q-pa-sm">XeroLinux Editions</div>
+  <div id="editions" class="text-h2 q-mt-sm text-center q-pa-sm">
+    XeroLinux Editions
+  </div>
 
   <div
     class="

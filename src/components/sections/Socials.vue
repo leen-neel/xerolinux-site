@@ -1,5 +1,7 @@
 <template>
-  <div class="text-h2 q-mt-sm text-center q-pa-sm">Find us on social media</div>
+  <div id="socials" class="text-h2 q-mt-sm text-center q-pa-sm">
+    Find us on social media
+  </div>
 
   <div
     class="
