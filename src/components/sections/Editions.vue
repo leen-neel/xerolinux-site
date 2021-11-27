@@ -25,9 +25,21 @@
         that you will HAVE to read the entire Release notes to get the big
         picture.
       </q-card-section>
+
+      <q-card-actions>
+        <q-btn
+          label="Learn more"
+          color="accent"
+          class="btn"
+          icon-right="arrow_forward"
+          type="a"
+          href="https://forum.xerolinux.xyz/thread-4.html"
+          target="_blank"
+        />
+      </q-card-actions>
     </q-card>
 
-    <q-card class="edition-card">
+    <q-card class="edition-card" style="font-size: 18.8px">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"
@@ -42,6 +54,18 @@
         bells n whistles. But it still retains the Driver selector page for best
         compatibility.
       </q-card-section>
+
+      <q-card-actions>
+        <q-btn
+          label="Learn more"
+          color="accent"
+          class="btn"
+          icon-right="arrow_forward"
+          type="a"
+          href="https://forum.xerolinux.xyz/thread-14.html"
+          target="_blank"
+        />
+      </q-card-actions>
     </q-card>
   </div>
 </template>

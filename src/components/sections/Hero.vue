@@ -4,12 +4,7 @@
       <div class="text-h3 text-white text-center text-bold q-mb-md">
         XeroLinux
       </div>
-      <q-btn
-        class="downloadBtn"
-        color="primary"
-        icon="download"
-        label="Download"
-      />
+      <q-btn class="btn" color="primary" icon="download" label="Download" />
     </div>
   </div>
 </template>
@@ -28,20 +23,5 @@
   width: 100%;
 
   backdrop-filter: blur(7px);
-}
-
-.downloadBtn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 40px;
-  border-radius: 8px;
-
-  font-size: 20px;
-  font-weight: bold;
-
-  max-height: 56px;
-  max-width: 271px;
 }
 </style>
