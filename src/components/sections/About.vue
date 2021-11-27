@@ -1,7 +1,7 @@
 <template>
   <div class="text-h2 q-mt-sm text-center q-pa-sm">About XeroLinux</div>
 
-  <div class="text-left q-pa-sm q-mt-sm">
+  <div class="text-left q-pa-md q-mt-sm">
     <p>
       This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
       personal project I am working on that I thought I would share, in case

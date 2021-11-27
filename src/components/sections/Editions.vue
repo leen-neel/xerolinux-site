@@ -1,7 +1,15 @@
 <template>
   <div class="text-h2 q-mt-sm text-center q-pa-sm">XeroLinux Editions</div>
 
-  <div class="row q-gutter-md flex flex-center q-mt-sm col-6">
+  <div
+    class="
+      row
+      flex-center
+      q-gutter-md q-mt-sm
+      col-xs-12 col-sm-6 col-md-4
+      q-pa-sm
+    "
+  >
     <q-card class="edition-card">
       <q-img
         src="https://i.imgur.com/TNg4vJr.jpeg"
@@ -40,6 +48,6 @@
 
 <style lang="scss" scoped>
 .edition-card {
-  max-width: 40%;
+  max-width: 600px;
 }
 </style>
