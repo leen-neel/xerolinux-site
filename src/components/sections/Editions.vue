@@ -28,21 +28,124 @@
         picture.
       </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-section class="row">
+        <div class="col-6">
+          <q-list>
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Intel VMD™ support </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> "nVidia" On Boot </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Wayland Session Enabled </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> PipeWire or PulseAudio </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Wacom Tablet support </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+
+        <div class="col-6">
+          <q-list>
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> New SysConfig Tool </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Refreshed Rice </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Paru (AUR) helper </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Package selection </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> And more.... </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+      </q-card-section>
+
+      <q-card-actions class="row justify-evenly q-ma-sm">
         <q-btn
-          label="More info & download"
+          label="Full Release notes"
           color="accent"
           class="btn"
-          icon-right="arrow_forward"
+          icon="note"
           type="a"
           href="https://forum.xerolinux.xyz/thread-4.html"
+          target="_blank"
+          style="font-size: 13px"
+        />
+
+        <q-btn
+          label="Download now"
+          icon="download"
+          color="accent"
+          class="btn"
+          type="a"
+          href="https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-2021.11-x86_64.iso/download"
+          target="_blank"
+          style="font-size: 13px"
+        />
+
+        <q-btn
+          label="Installation guide"
+          color="accent"
+          icon="fas fa-file-download"
+          class="btn"
+          type="a"
+          href="https://forum.xerolinux.xyz/thread-38.html"
           target="_blank"
           style="font-size: 13px"
         />
       </q-card-actions>
     </q-card>
 
-    <q-card class="edition-card" style="font-size: 18.8px">
+    <!-- Core -->
+    <q-card class="edition-card" style="font-size: 22.6px">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"
@@ -58,14 +161,95 @@
         compatibility.
       </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-section class="row">
+        <div class="col-6">
+          <q-list>
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Arch with Stock KDE </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Neofetch Activated </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Intel VMD™ support </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> "nVidia" On Boot </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+
+        <div class="col-6">
+          <q-list>
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Paru (AUR) helper </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Wayland Session Active </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> And more.... </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+      </q-card-section>
+
+      <q-card-actions class="row justify-evenly q-ma-sm">
         <q-btn
-          label="More info & download"
+          label="Full Release notes"
           color="accent"
           class="btn"
-          icon-right="arrow_forward"
+          icon="note"
           type="a"
-          href="https://forum.xerolinux.xyz/thread-14.html"
+          href="https://forum.xerolinux.xyz/thread-14.html  "
+          target="_blank"
+          style="font-size: 13px"
+        />
+
+        <q-btn
+          label="Download now"
+          icon="download"
+          color="accent"
+          class="btn"
+          type="a"
+          href=" https://sourceforge.net/projects/xerolinux/files/Releases/Core/xerolinux-core-2021.11-x86_64.iso/download"
+          target="_blank"
+          style="font-size: 13px"
+        />
+
+        <q-btn
+          label="Installation guide"
+          color="accent"
+          icon="fas fa-file-download"
+          class="btn"
+          type="a"
+          href="https://forum.xerolinux.xyz/thread-38.html"
           target="_blank"
           style="font-size: 13px"
         />
