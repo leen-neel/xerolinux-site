@@ -1,7 +1,10 @@
 <template>
-  <q-footer class="site-footer q-pa-sm background-positive" color="negative">
+  <q-footer
+    class="site-footer q-pa-sm background-positive text-center"
+    color="negative"
+  >
     <div :class="{ 'q-mb-sm': $q.screen.lt.md }">
-      &copy; XeroLinux all rights reserved | Made by
+      &copy; XeroLinux all rights reserved | Created by
       <a target="_blank" href="https://and249.netlify.app/"
         >Anindo Neel Dutta</a
       >

@@ -19,7 +19,11 @@
       settings etc.
     </p>
 
-    <q-video src="https://www.youtube.com/embed/UKg43SFtAL8" :ratio="16 / 9" />
+    <q-video
+      style="border-radius: 16px"
+      src="https://www.youtube.com/embed/UKg43SFtAL8"
+      :ratio="16 / 9"
+    />
 
     <p class="q-mt-sm">
       So if you just want to get started doing everything yourself, "Core" is

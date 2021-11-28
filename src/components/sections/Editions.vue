@@ -1,5 +1,5 @@
 <template>
-  <div id="editions" class="text-h2 q-mt-sm text-center q-pa-sm">
+  <div id="editions" class="text-h3 q-mt-sm text-center q-pa-sm">
     XeroLinux Editions
   </div>
 
@@ -13,14 +13,14 @@
     "
   >
     <!-- Main -->
-    <q-card class="edition-card">
+    <q-card class="edition-card card-1">
       <q-img
         src="https://i.imgur.com/TNg4vJr.jpeg"
         spinner-color="primary"
         spinner-size="82px"
       />
       <q-card-section>
-        <div class="text-h3">XeroLinux Main</div>
+        <div class="text-h3 text-center header">XeroLinux Main</div>
       </q-card-section>
       <q-card-section>
         This one is a bit long in the tooth to describe, suffice it to say that
@@ -58,7 +58,7 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> PipeWire/PulseAudio </q-item-section>
+              <q-item-section> PipeWire / Pulse </q-item-section>
             </q-item>
 
             <q-item>
@@ -110,7 +110,7 @@
         </div>
       </q-card-section>
 
-      <q-card-actions class="row justify-evenly q-ma-sm">
+      <q-card-actions class="row justify-evenly">
         <q-btn
           label="Full Release notes"
           color="accent"
@@ -154,7 +154,7 @@
         spinner-size="82px"
       />
       <q-card-section>
-        <div class="text-h3">XeroLinux Core</div>
+        <div class="text-h3 text-center header">XeroLinux Core</div>
       </q-card-section>
       <q-card-section>
         It’s a stripped down version of the main release. Yes, this will not
@@ -179,21 +179,28 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> Neofetch Activated </q-item-section>
+              <q-item-section> Neofetch </q-item-section>
             </q-item>
 
             <q-item>
               <q-item-section class="q-mr-sm" side top>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> Intel VMD™ support </q-item-section>
+              <q-item-section> VMD™ support </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side top>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> "nVidia" On Boot </q-item-section>
             </q-item>
 
             <q-item>
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> "nVidia" On Boot </q-item-section>
+              <q-item-section> Custom .bashrc </q-item-section>
             </q-item>
           </q-list>
         </div>
@@ -201,7 +208,7 @@
         <div class="col-6">
           <q-list>
             <q-item>
-              <q-item-section class="q-mr-sm" side>
+              <q-item-section class="q-mr-sm" side top>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
               <q-item-section> Paru (AUR) helper </q-item-section>
@@ -211,7 +218,21 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
+              <q-item-section> Driver Selector </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side top>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
               <q-item-section> Wayland Support </q-item-section>
+            </q-item>
+
+            <q-item>
+              <q-item-section class="q-mr-sm" side>
+                <q-icon color="white" name="arrow_forward" />
+              </q-item-section>
+              <q-item-section> Extremely light </q-item-section>
             </q-item>
 
             <q-item>
@@ -224,7 +245,7 @@
         </div>
       </q-card-section>
 
-      <q-card-actions class="row justify-evenly q-ma-sm">
+      <q-card-actions class="row justify-evenly">
         <q-btn
           label="Full Release notes"
           color="accent"
@@ -267,18 +288,31 @@
   max-width: 600px;
 }
 
+.card-1 {
+  font-size: 17.09px;
+}
+
 .card-2 {
-  font-size: 22.2px;
+  font-size: 18.8px;
 }
 
 @media (max-width: $breakpoint-xs-max) {
   .edition-card,
   .features {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .card-2 {
     font-size: 15px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header {
+    font-size: 28px;
+    text-align: center;
   }
 }
 </style>
