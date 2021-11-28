@@ -24,6 +24,12 @@
               <q-item-section> Gallery </q-item-section>
             </q-item>
           </a>
+
+          <a href="https://forum.xerolinux.xyz/">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> Forum </q-item-section>
+            </q-item>
+          </a>
         </q-list>
       </q-menu>
     </q-btn>

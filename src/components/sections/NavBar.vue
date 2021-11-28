@@ -19,5 +19,13 @@
       type="a"
       href="#gallery"
     />
+    <q-btn
+      label="Forum"
+      flat
+      style="font-size: 18px"
+      type="a"
+      href="https://forum.xerolinux.xyz/"
+      target="_blank"
+    />
   </div>
 </template>
