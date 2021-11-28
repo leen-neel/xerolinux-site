@@ -147,7 +147,7 @@
     </q-card>
 
     <!-- Core -->
-    <q-card class="edition-card">
+    <q-card class="edition-card" style="font-size: 22.2px">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"

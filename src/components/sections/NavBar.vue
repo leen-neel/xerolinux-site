@@ -13,6 +13,13 @@
       href="#editions"
     />
     <q-btn
+      label="Gallery"
+      flat
+      style="font-size: 18px"
+      type="a"
+      href="#gallery"
+    />
+    <q-btn
       label="Socials"
       flat
       style="font-size: 18px"

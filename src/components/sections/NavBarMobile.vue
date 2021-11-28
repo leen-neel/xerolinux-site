@@ -7,41 +7,29 @@
     <q-btn color="white" icon="menu" flat>
       <q-menu transition-show="jump-down" transition-hide="jump-up">
         <q-list style="min-width: 100px">
-          <q-item clickable v-close-popup>
-            <q-item-section>
-              <q-btn
-                label="About"
-                flat
-                style="font-size: 18px"
-                type="a"
-                href="#about"
-              />
-            </q-item-section>
-          </q-item>
+          <a href="#about">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> About </q-item-section>
+            </q-item>
+          </a>
 
-          <q-item clickable v-close-popup>
-            <q-item-section>
-              <q-btn
-                label="Editions"
-                flat
-                style="font-size: 18px"
-                type="a"
-                href="#editions"
-              />
-            </q-item-section>
-          </q-item>
+          <a href="#editions">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> Editions </q-item-section>
+            </q-item>
+          </a>
 
-          <q-item clickable v-close-popup>
-            <q-item-section type="a" href="google.com">
-              <q-btn
-                label="Socials"
-                flat
-                style="font-size: 18px"
-                type="a"
-                href="#socials"
-              />
-            </q-item-section>
-          </q-item>
+          <a href="#gallery">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> Gallery </q-item-section>
+            </q-item>
+          </a>
+
+          <a href="#socials">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> Socials </q-item-section>
+            </q-item>
+          </a>
         </q-list>
       </q-menu>
     </q-btn>
@@ -60,3 +48,9 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+a {
+  text-decoration: none;
+}
+</style>
