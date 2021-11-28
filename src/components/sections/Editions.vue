@@ -147,7 +147,7 @@
     </q-card>
 
     <!-- Core -->
-    <q-card class="edition-card" style="font-size: 22.2px">
+    <q-card class="edition-card card-2">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"
@@ -165,7 +165,7 @@
 
       <div class="text-center text-positive">~[Features in a nutshell]~</div>
 
-      <q-card-section class="row">
+      <q-card-section class="row features">
         <div class="col-6">
           <q-list>
             <q-item>
@@ -183,7 +183,7 @@
             </q-item>
 
             <q-item>
-              <q-item-section class="q-mr-sm" side>
+              <q-item-section class="q-mr-sm" side top>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
               <q-item-section> Intel VMD™ support </q-item-section>
@@ -265,5 +265,20 @@
 <style lang="scss" scoped>
 .edition-card {
   max-width: 600px;
+}
+
+.card-2 {
+  font-size: 22.2px;
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  .edition-card,
+  .features {
+    font-size: 11px;
+  }
+
+  .card-2 {
+    font-size: 15px;
+  }
 }
 </style>

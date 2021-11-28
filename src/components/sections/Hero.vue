@@ -12,16 +12,7 @@
       </p>
     </div>
 
-    <div
-      class="
-        row
-        flex-center
-        q-gutter-md q-mt-sm
-        col-xs-12 col-sm-6 col-md-4
-        q-pa-sm
-      "
-      style="position: relative; top: 82%"
-    >
+    <div class="row flex-center" style="position: relative; top: 82%">
       <q-btn
         color="white"
         icon="fab fa-telegram"
