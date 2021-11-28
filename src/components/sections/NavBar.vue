@@ -19,12 +19,5 @@
       type="a"
       href="#gallery"
     />
-    <q-btn
-      label="Socials"
-      flat
-      style="font-size: 18px"
-      type="a"
-      href="#socials"
-    />
   </div>
 </template>

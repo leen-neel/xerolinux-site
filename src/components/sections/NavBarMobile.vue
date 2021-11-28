@@ -24,12 +24,6 @@
               <q-item-section> Gallery </q-item-section>
             </q-item>
           </a>
-
-          <a href="#socials">
-            <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> Socials </q-item-section>
-            </q-item>
-          </a>
         </q-list>
       </q-menu>
     </q-btn>

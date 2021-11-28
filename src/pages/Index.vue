@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <NavBar v-if="$q.screen.gt.sm" />
-    <NavBarMobile id="compostable" v-if="$q.screen.lt.md" />
+    <NavBarMobile v-if="$q.screen.lt.md" />
 
     <Hero />
 
@@ -10,8 +10,6 @@
     <Editions />
 
     <Gallery />
-
-    <Socials />
   </q-page>
 </template>
 
@@ -22,7 +20,6 @@ import Gallery from "src/components/sections/Gallery.vue";
 import Hero from "src/components/sections/Hero.vue";
 import NavBar from "src/components/sections/NavBar.vue";
 import NavBarMobile from "src/components/sections/NavBarMobile.vue";
-import Socials from "src/components/sections/Socials.vue";
 
 import { defineComponent } from "vue";
 
@@ -33,7 +30,6 @@ export default defineComponent({
     Hero,
     Editions,
     Gallery,
-    Socials,
     NavBar,
     NavBarMobile,
   },
