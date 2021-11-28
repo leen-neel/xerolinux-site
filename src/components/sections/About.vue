@@ -21,7 +21,7 @@
 
     <q-video src="https://www.youtube.com/embed/UKg43SFtAL8" :ratio="16 / 9" />
 
-    <p>
+    <p class="q-mt-sm">
       So if you just want to get started doing everything yourself, "Core" is
       for you, but if you want the ease of doing less and being up and running
       without much effort also you like the eye candy, then "Main" is the right

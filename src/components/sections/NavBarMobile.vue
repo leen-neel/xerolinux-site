@@ -1,11 +1,11 @@
 <template>
   <div class="absolute-top row z-top q-ma-md q-gutter-sm">
-    <img src="/images/logo.png" alt="Xerolinux" style="max-width: 50px" />
+    <div class="text-h4">XeroLinux</div>
 
     <q-space />
 
-    <q-btn color="white" icon="menu" flat :persistent="false">
-      <q-menu fit transition-show="jump-down" transition-hide="jump-up">
+    <q-btn color="white" icon="menu" flat>
+      <q-menu transition-show="jump-down" transition-hide="jump-up">
         <q-list style="min-width: 100px">
           <q-item clickable v-close-popup>
             <q-item-section>
@@ -47,3 +47,16 @@
     </q-btn>
   </div>
 </template>
+
+<script>
+import { defineComponent, ref } from "vue";
+
+export default defineComponent({
+  setup() {
+    const menu = ref(true);
+    return {
+      menu,
+    };
+  },
+});
+</script>

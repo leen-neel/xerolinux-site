@@ -1,6 +1,6 @@
 <template>
   <div class="absolute-top row z-top q-pa-md q-gutter-sm">
-    <img src="/images/logo.png" alt="Xerolinux" style="max-width: 50px" />
+    <div class="text-h4">XeroLinux</div>
 
     <q-space />
 
