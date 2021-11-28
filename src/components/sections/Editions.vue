@@ -12,6 +12,7 @@
       q-pa-sm
     "
   >
+    <!-- Main -->
     <q-card class="edition-card">
       <q-img
         src="https://i.imgur.com/TNg4vJr.jpeg"
@@ -28,6 +29,7 @@
         picture.
       </q-card-section>
 
+      <div class="text-center text-positive">~[Features in a nutshell]~</div>
       <q-card-section class="row">
         <div class="col-6">
           <q-list>
@@ -49,14 +51,14 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> Wayland Session Enabled </q-item-section>
+              <q-item-section> Wayland Support </q-item-section>
             </q-item>
 
             <q-item>
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> PipeWire or PulseAudio </q-item-section>
+              <q-item-section> PipeWire/PulseAudio </q-item-section>
             </q-item>
 
             <q-item>
@@ -145,7 +147,7 @@
     </q-card>
 
     <!-- Core -->
-    <q-card class="edition-card" style="font-size: 22.6px">
+    <q-card class="edition-card">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"
@@ -161,6 +163,8 @@
         compatibility.
       </q-card-section>
 
+      <div class="text-center text-positive">~[Features in a nutshell]~</div>
+
       <q-card-section class="row">
         <div class="col-6">
           <q-list>
@@ -168,7 +172,7 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> Arch with Stock KDE </q-item-section>
+              <q-item-section> Arch/Vanilla KDE </q-item-section>
             </q-item>
 
             <q-item>
@@ -207,7 +211,7 @@
               <q-item-section class="q-mr-sm" side>
                 <q-icon color="white" name="arrow_forward" />
               </q-item-section>
-              <q-item-section> Wayland Session Active </q-item-section>
+              <q-item-section> Wayland Support </q-item-section>
             </q-item>
 
             <q-item>
