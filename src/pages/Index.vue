@@ -5,6 +5,8 @@
 
     <Hero />
 
+    <NewRelease date="06/12/2021" :hasNewRelease="true" />
+
     <About />
 
     <Editions />
@@ -20,6 +22,7 @@ import Gallery from "src/components/sections/Gallery.vue";
 import Hero from "src/components/sections/Hero.vue";
 import NavBar from "src/components/sections/NavBar.vue";
 import NavBarMobile from "src/components/sections/NavBarMobile.vue";
+import NewRelease from "src/components/sections/NewRelease.vue";
 
 import { defineComponent } from "vue";
 
@@ -32,6 +35,7 @@ export default defineComponent({
     Gallery,
     NavBar,
     NavBarMobile,
+    NewRelease,
   },
 });
 </script>
