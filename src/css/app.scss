@@ -20,6 +20,15 @@
   max-width: 271px;
 }
 
+.nav-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.32) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(7px);
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute-top row z-top q-pa-md q-gutter-sm">
+  <div class="nav-bg fixed-top row z-top q-pa-md q-gutter-sm">
     <div class="text-h4">XeroLinux</div>
 
     <q-space />

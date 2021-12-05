@@ -8,7 +8,7 @@
       </div>
 
       <div class="q-mt-sm text-center">
-        Freedom of Choice
+        An <strong>"Eyecandy"</strong> lover's wet dream.
 
         <br />
 

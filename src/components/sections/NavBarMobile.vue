@@ -1,11 +1,15 @@
 <template>
-  <div class="absolute-top row z-top q-ma-md q-gutter-sm">
+  <div class="fixed-top row nav-bg full-width z-top q-pa-md q-gutter-sm">
     <div class="text-h4">XeroLinux</div>
 
     <q-space />
 
     <q-btn color="white" icon="menu" flat>
-      <q-menu transition-show="jump-down" transition-hide="jump-up">
+      <q-menu
+        class="z-top"
+        transition-show="jump-down"
+        transition-hide="jump-up"
+      >
         <q-list style="min-width: 100px">
           <a href="#about">
             <q-item class="text-center q-ma-sm" clickable v-close-popup>
