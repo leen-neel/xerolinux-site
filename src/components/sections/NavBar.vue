@@ -13,6 +13,13 @@
       href="#editions"
     />
     <q-btn
+      label="XeroPorn"
+      flat
+      style="font-size: 18px"
+      type="a"
+      href="#xeroporn"
+    />
+    <q-btn
       label="Gallery"
       flat
       style="font-size: 18px"

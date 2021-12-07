@@ -23,6 +23,12 @@
             </q-item>
           </a>
 
+          <a href="#xeroporn">
+            <q-item class="text-center q-ma-sm" clickable v-close-popup>
+              <q-item-section> XeroPorn </q-item-section>
+            </q-item>
+          </a>
+
           <a href="#gallery">
             <q-item class="text-center q-ma-sm" clickable v-close-popup>
               <q-item-section> Gallery </q-item-section>
