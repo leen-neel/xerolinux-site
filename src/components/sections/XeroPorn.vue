@@ -1,14 +1,14 @@
 <template>
   <div class="text-h3 q-mt-xl text-center q-pa-sm">XeroPorn</div>
 
-  <Rice />
+  <Rices />
 </template>
 
 <script>
 import { defineComponent } from "vue";
-import Rice from "./Rice.vue";
+import Rices from "./Rices.vue";
 
 export default defineComponent({
-  components: { Rice },
+  components: { Rices },
 });
 </script>

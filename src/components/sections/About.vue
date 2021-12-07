@@ -21,7 +21,8 @@
 
     <div class="flex flex-center q-my-md">
       <q-video
-        style="border-radius: 16px; height: 500px; width: 900px"
+        class="radius-16"
+        style="height: 500px; width: 900px"
         src="https://www.youtube.com/embed/ZpZd_sZvh_s"
       />
     </div>
