@@ -128,7 +128,7 @@
           color="accent"
           class="btn q-ma-sm"
           type="a"
-          href="https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-2021.11-x86_64.iso/download"
+          href="https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-x86_64.iso/download"
           target="_blank"
           style="font-size: 13px"
         />
@@ -252,7 +252,7 @@
           class="btn q-ma-sm"
           icon="note"
           type="a"
-          href="https://forum.xerolinux.xyz/thread-14.html  "
+          href="https://forum.xerolinux.xyz/thread-14.htm"
           target="_blank"
           style="font-size: 13px"
         />
@@ -263,7 +263,7 @@
           color="accent"
           class="btn q-ma-sm"
           type="a"
-          href=" https://sourceforge.net/projects/xerolinux/files/Releases/Core/xerolinux-core-2021.11-x86_64.iso/download"
+          href="https://sourceforge.net/projects/xerolinux/files/Releases/Core/xerolinux-core-x86_64.iso/download"
           target="_blank"
           style="font-size: 13px"
         />
