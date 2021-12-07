@@ -11,14 +11,19 @@
     "
   >
     <Rices />
+    <GrubThemes />
   </div>
 </template>
 
 <script>
 import { defineComponent } from "vue";
+import GrubThemes from "./GrubThemes.vue";
 import Rices from "./Rices.vue";
 
 export default defineComponent({
-  components: { Rices },
+  components: {
+    Rices,
+    GrubThemes,
+  },
 });
 </script>
