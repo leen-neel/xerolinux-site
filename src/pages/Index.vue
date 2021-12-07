@@ -11,6 +11,8 @@
 
     <Editions />
 
+    <XeroPorn />
+
     <Gallery />
   </q-page>
 </template>
@@ -23,6 +25,7 @@ import Hero from "src/components/sections/Hero.vue";
 import NavBar from "src/components/sections/NavBar.vue";
 import NavBarMobile from "src/components/sections/NavBarMobile.vue";
 import NewRelease from "src/components/sections/NewRelease.vue";
+import XeroPorn from "src/components/sections/XeroPorn.vue";
 
 import { defineComponent } from "vue";
 
@@ -36,6 +39,7 @@ export default defineComponent({
     NavBar,
     NavBarMobile,
     NewRelease,
+    XeroPorn,
   },
 });
 </script>

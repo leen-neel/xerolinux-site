@@ -283,7 +283,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .edition-card {
   max-width: 600px;
 }
