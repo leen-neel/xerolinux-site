@@ -1,5 +1,6 @@
 <template>
-  <div id="xeroporn" class="text-h3 q-mt-xl text-center q-pa-sm">XeroPorn</div>
+  <div id="xeroporn"></div>
+  <div class="text-h3 q-mt-xl text-center q-pa-sm">XeroPorn</div>
 
   <div
     class="

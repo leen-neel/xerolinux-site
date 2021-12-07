@@ -64,5 +64,6 @@ export default defineComponent({
 .syntax {
   background-color: #282a36;
   border-radius: 8px;
+  word-wrap: break-word;
 }
 </style>

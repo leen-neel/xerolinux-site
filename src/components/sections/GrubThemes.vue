@@ -18,7 +18,6 @@
         class="btn q-ma-sm"
         @click="xeronord = true"
         target="_blank"
-        style="font-size: 13px"
       />
 
       <div class="row">
@@ -27,7 +26,6 @@
           color="accent"
           class="btn q-ma-sm"
           target="_blank"
-          style="font-size: 13px"
           @click="starwars = true"
         />
         <q-btn
@@ -35,7 +33,6 @@
           color="accent"
           class="btn q-ma-sm"
           target="_blank"
-          style="font-size: 13px"
           @click="draftpunk = true"
         />
         <q-btn
@@ -43,7 +40,6 @@
           color="accent"
           class="btn q-ma-sm"
           target="_blank"
-          style="font-size: 13px"
           @click="tron = true"
         />
         <q-btn
@@ -51,7 +47,6 @@
           color="accent"
           class="btn q-ma-sm"
           target="_blank"
-          style="font-size: 13px"
           @click="xcomp = true"
         />
       </div>
@@ -175,5 +170,14 @@ export default defineComponent({
 <style lang="scss" scoped>
 .grub-card {
   width: 600px;
+}
+.btn {
+  font-size: 13px;
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  .btn {
+    font-size: 10px;
+  }
 }
 </style>
