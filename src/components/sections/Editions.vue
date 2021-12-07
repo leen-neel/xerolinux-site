@@ -13,7 +13,7 @@
     "
   >
     <!-- Main -->
-    <q-card class="edition-card card-1">
+    <q-card class="edition-card card-1 radius-16">
       <q-img
         src="https://i.imgur.com/TNg4vJr.jpeg"
         spinner-color="primary"
@@ -147,7 +147,7 @@
     </q-card>
 
     <!-- Core -->
-    <q-card class="edition-card card-2">
+    <q-card class="edition-card card-2 radius-16">
       <q-img
         src="https://i.imgur.com/27KxEm6.jpeg"
         spinner-color="primary"

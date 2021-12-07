@@ -1,5 +1,5 @@
 <template>
-  <q-card class="rice-card">
+  <q-card class="rice-card radius-16">
     <q-img
       src="https://imgur.com/qwurLBg.jpeg"
       spinner-color="primary"
@@ -10,7 +10,7 @@
       <div class="text-h3 text-center header">Rices</div>
     </q-card-section>
 
-    <q-card-actions align="center">
+    <q-card-actions vertical align="center">
       <q-btn
         label="XeroLayan"
         color="accent"
