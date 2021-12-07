@@ -1,11 +1,16 @@
 <template>
   <q-card class="radius-16 bg-dark text-white">
-    <q-img
-      :src="img"
-      spinner-color="primary"
-      spinner-size="82px"
-      width="100%"
-    />
+    <q-img :src="img" spinner-color="primary" spinner-size="82px" width="100%">
+      <q-btn
+        icon="close"
+        flat
+        round
+        dense
+        v-close-popup
+        class="absolute all-pointer-events"
+        style="top: 8px; left: 92%"
+      />
+    </q-img>
 
     <q-card-section>
       <div class="text-center text-h3">{{ name }}</div>
