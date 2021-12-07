@@ -1,13 +1,14 @@
 <template>
   <q-card class="grub-card radius-16">
     <q-img
-      src="https://imgur.com/qwurLBg.jpeg"
+      src="https://i.imgur.com/DWDNOv1.jpeg"
       spinner-color="primary"
       spinner-size="82px"
+      height="380px"
     />
 
     <q-card-section>
-      <div class="text-h3 text-center header">Grub Editions</div>
+      <div class="text-h3 text-center header">Grub Themes</div>
     </q-card-section>
 
     <q-card-actions vertical align="center">
