@@ -11,7 +11,7 @@
       radius-16
     "
   >
-    New release are {{ date }}!
+    New releases are {{ date }}!
   </q-card>
 </template>
 

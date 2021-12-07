@@ -15,7 +15,7 @@
     <!-- Main -->
     <q-card class="edition-card card-1 radius-16">
       <q-img
-        src="https://i.imgur.com/TNg4vJr.jpeg"
+        src="https://cdn.discordapp.com/attachments/912888928749645896/917800804096806942/New.jpg"
         spinner-color="primary"
         spinner-size="82px"
       />

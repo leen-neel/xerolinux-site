@@ -17,7 +17,10 @@
         style="border-radius: 16px"
       >
         <q-carousel-slide :name="1" img-src="https://i.imgur.com/HERtYR3.png" />
-        <q-carousel-slide :name="2" img-src="https://i.imgur.com/znyvRo5.jpg" />
+        <q-carousel-slide
+          :name="2"
+          img-src="https://cdn.discordapp.com/attachments/912888928749645896/917800804096806942/New.jpg"
+        />
         <q-carousel-slide :name="3" img-src="https://i.imgur.com/rrPrP1d.jpg" />
       </q-carousel>
     </q-responsive>
