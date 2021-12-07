@@ -5,7 +5,7 @@
 
     <Hero />
 
-    <NewRelease date="06/12/2021" :hasNewRelease="true" />
+    <NewRelease date="ONLINE" :hasNewRelease="true" />
 
     <About />
 
