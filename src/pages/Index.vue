@@ -5,7 +5,11 @@
 
     <Hero />
 
-    <NewRelease date="ONLINE" :hasNewRelease="true" />
+    <AnnouncementBanner :hasAnnoouncement="true">
+      Coming soon: XeroLinux XFCE Edition!
+
+      <template v-slot:badge> Announcement </template>
+    </AnnouncementBanner>
 
     <About />
 
@@ -24,7 +28,7 @@ import Gallery from "src/components/sections/Gallery.vue";
 import Hero from "src/components/sections/Hero.vue";
 import NavBar from "src/components/sections/NavBar.vue";
 import NavBarMobile from "src/components/sections/NavBarMobile.vue";
-import NewRelease from "src/components/sections/NewRelease.vue";
+import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
 import XeroPorn from "src/components/sections/XeroPorn.vue";
 
 import { defineComponent } from "vue";
@@ -38,7 +42,7 @@ export default defineComponent({
     Gallery,
     NavBar,
     NavBarMobile,
-    NewRelease,
+    AnnouncementBanner,
     XeroPorn,
   },
 });

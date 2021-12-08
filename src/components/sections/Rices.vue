@@ -7,7 +7,7 @@
     />
 
     <q-card-section>
-      <div class="text-h3 text-center header">Rices</div>
+      <div class="text-h3 text-center header">Rices/Themes</div>
     </q-card-section>
 
     <q-card-actions vertical align="center">
@@ -109,35 +109,15 @@
     transition-hide="slide-down"
     class="z-top"
   >
-    <q-card class="bg-dark text-white radius-16">
-      <q-video
-        style="height: 300px; width: 100%"
-        src="https://www.youtube.com/embed/Kh_Mmu4toN8"
-      />
-
-      <q-card-section>
-        <div class="text-center text-h3">XeroNord</div>
-      </q-card-section>
-
-      <q-card-section class="q-pt-none">
-        <div class="desc">
-          This rice is one of my faves, it's based on the Nordic theme with
-          quite a unique layout. Latte all of course. It is intended to be
-          mainly used on XeroLinux. Have fun.
-        </div>
-      </q-card-section>
-
-      <q-card-actions class="q-ma-sm" align="right">
-        <q-btn
-          type="a"
-          target="_blank"
-          href=" https://github.com/xerolinux/xero-nord-git"
-          color="primary"
-          class="q-pa-md"
-          label="Installation guide"
-        />
-      </q-card-actions>
-    </q-card>
+    <Rice
+      img="https://imgur.com/XuYPcEb.jpg"
+      name="XeroNord"
+      link="https://github.com/xerolinux/xero-nord-git"
+    >
+      This rice is one of my faves, it's based on the Nordic theme with quite a
+      unique layout. Latte all of course. It is intended to be mainly used on
+      XeroLinux. Have fun.
+    </Rice>
   </q-dialog>
 </template>
 

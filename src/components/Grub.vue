@@ -22,26 +22,16 @@
       </div>
     </q-card-section>
 
-    <q-card-section class="q-pt-none">
-      <div class="text-h6">Git Clone</div>
-      <div class="desc syntax full-width q-pa-md q-mt-sm">
-        <slot name="gc"> </slot>
-      </div>
-    </q-card-section>
-
-    <q-card-section class="q-pt-none">
-      <div class="text-h6">Set exec permission</div>
-      <div class="desc syntax full-width q-pa-md q-mt-sm">
-        sudo chmod +x ./install.sh
-      </div>
-    </q-card-section>
-
-    <q-card-section class="q-pt-none">
-      <div class="text-h6">Install theme</div>
-      <div class="desc syntax full-width q-pa-md q-mt-sm">
-        sudo ./install.sh
-      </div>
-    </q-card-section>
+    <q-card-actions class="q-ma-sm" align="right">
+      <q-btn
+        type="a"
+        target="_blank"
+        :href="link"
+        color="primary"
+        class="q-pa-md"
+        label="Installation guide"
+      />
+    </q-card-actions>
   </q-card>
 </template>
 
@@ -52,6 +42,7 @@ export default defineComponent({
   props: {
     name: String,
     img: String,
+    link: String,
   },
 });
 </script>

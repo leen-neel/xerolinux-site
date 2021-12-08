@@ -60,14 +60,14 @@
     transition-hide="slide-down"
     class="z-top"
   >
-    <Grub name="XeroNord" img="https://i.imgur.com/DWDNOv1.jpeg">
+    <Grub
+      name="XeroNord"
+      img="https://i.imgur.com/DWDNOv1.jpeg"
+      link="https://github.com/TechXero/XeroNord-Grub.git"
+    >
       This is where <strong>XeroNord</strong> Grub Theme will be. Constantly
       updated so keep coming back. I included a script that makes installing
       much easier, just follow steps below :
-
-      <template v-slot:gc>
-        git clone https://github.com/TechXero/XeroNord-Grub.git
-      </template>
     </Grub>
   </q-dialog>
 
@@ -78,14 +78,14 @@
     transition-hide="slide-down"
     class="z-top"
   >
-    <Grub name="Star Wars" img="https://i.imgur.com/fj4jPJf.png">
+    <Grub
+      name="Star Wars"
+      img="https://i.imgur.com/fj4jPJf.png"
+      link="https://github.com/TechXero/StarWarsGrub.git"
+    >
       This is where <strong>Star Wars: The Last Jedi</strong> inspired Grub
       Theme will be. Constantly updated so keep coming back. I included a script
       that makes installing much easier, just follow steps below :
-
-      <template v-slot:gc>
-        git clone https://github.com/TechXero/StarWarsGrub.git
-      </template>
     </Grub>
   </q-dialog>
 
@@ -96,14 +96,14 @@
     transition-hide="slide-down"
     class="z-top"
   >
-    <Grub name="Draft Punk" img="https://i.imgur.com/kOHZXLe.png">
+    <Grub
+      name="Draft Punk"
+      img="https://i.imgur.com/kOHZXLe.png"
+      link="https://github.com/TechXero/DaftGrub.git"
+    >
       This is where <strong>Daft Punk</strong> inspired Grub Theme will be.
       Constantly updated so keep coming back. I included a script that makes
       installing much easier, just follow steps below :
-
-      <template v-slot:gc>
-        git clone https://github.com/TechXero/DaftGrub.git
-      </template>
     </Grub>
   </q-dialog>
 
@@ -114,14 +114,14 @@
     transition-hide="slide-down"
     class="z-top"
   >
-    <Grub name="T-R-O-N" img="https://i.imgur.com/zhxPdqw.png">
+    <Grub
+      name="T-R-O-N"
+      img="https://i.imgur.com/zhxPdqw.png"
+      link="https://github.com/TechXero/TronGrub.git"
+    >
       This is where <strong>TRON: Legacy</strong> inspired Grub Theme will be.
       Constantly updated so keep coming back. I included a script that makes
       installing much easier, just follow steps below :
-
-      <template v-slot:gc>
-        git clone https://github.com/TechXero/TronGrub.git
-      </template>
     </Grub>
   </q-dialog>
 
@@ -135,13 +135,11 @@
     <Grub
       name=" Xero-Compromise"
       img="https://imghost.techxero.com/images/ovB.png"
+      link="https://github.com/TechXero/XeroComp.git"
     >
       This is where <strong>Xero-Compromise</strong> Grub Theme will be.
       Constantly updated so keep coming back. I included a script that makes
       installing much easier, just follow steps below :
-      <template v-slot:gc>
-        git clone https://github.com/TechXero/XeroComp.git
-      </template>
     </Grub>
   </q-dialog>
 </template>
