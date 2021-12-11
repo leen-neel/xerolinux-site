@@ -19,14 +19,6 @@
       settings etc.
     </p>
 
-    <!-- <div class="flex flex-center q-my-md">
-      <q-video
-        class="radius-16"
-        style="height: 500px; width: 900px"
-        src="https://www.youtube.com/embed/ZpZd_sZvh_s"
-      />
-    </div> -->
-
     <div class="line-icon"></div>
 
     <p class="q-mt-sm">

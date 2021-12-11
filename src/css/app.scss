@@ -1,8 +1,14 @@
 // app global css in SCSS form
 
+@import url(./layersAndBG.scss);
+
 @font-face {
   font-family: "Fira";
   src: url(./fonts/FiraCode-Regular.ttf);
+}
+
+.bg-blur {
+  backdrop-filter: blur(7px);
 }
 
 .btn {
