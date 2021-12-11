@@ -137,7 +137,7 @@
   }
 
   .card-2 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .header {
