@@ -6,7 +6,7 @@
     <Hero />
 
     <AnnouncementBanner :hasAnnoouncement="true">
-      Coming soon: XeroLinux XFCE Edition!
+      Coming soon: GNOME and XFCE Edition!
 
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>

@@ -32,7 +32,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 .announcement-badge {
   position: relative;
-  bottom: -50px;
+  bottom: -40px;
   right: -15px;
   z-index: 1;
 

@@ -29,87 +29,6 @@
         picture.
       </q-card-section>
 
-      <div class="text-center text-positive">~[Features in a nutshell]~</div>
-      <q-card-section class="row">
-        <div class="col-6">
-          <q-list>
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Intel VMD™ support </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> "nVidia" On Boot </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Wayland Support </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> PipeWire / Pulse </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Wacom Tablet support </q-item-section>
-            </q-item>
-          </q-list>
-        </div>
-
-        <div class="col-6">
-          <q-list>
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> New SysConfig Tool </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Refreshed Rice </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Paru (AUR) helper </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Package selection </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> And more.... </q-item-section>
-            </q-item>
-          </q-list>
-        </div>
-      </q-card-section>
-
       <q-card-actions class="row justify-evenly">
         <q-btn
           label="Full Release notes"
@@ -163,88 +82,6 @@
         compatibility.
       </q-card-section>
 
-      <div class="text-center text-positive">~[Features in a nutshell]~</div>
-
-      <q-card-section class="row features">
-        <div class="col-6">
-          <q-list>
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Arch/Vanilla KDE </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Neofetch </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side top>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> VMD™ support </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side top>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> "nVidia" On Boot </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Custom .bashrc </q-item-section>
-            </q-item>
-          </q-list>
-        </div>
-
-        <div class="col-6">
-          <q-list>
-            <q-item>
-              <q-item-section class="q-mr-sm" side top>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Paru (AUR) helper </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Driver Selector </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side top>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Wayland Support </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> Extremely light </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section class="q-mr-sm" side>
-                <q-icon color="white" name="arrow_forward" />
-              </q-item-section>
-              <q-item-section> And more.... </q-item-section>
-            </q-item>
-          </q-list>
-        </div>
-      </q-card-section>
-
       <q-card-actions class="row justify-evenly">
         <q-btn
           label="Full Release notes"
@@ -293,7 +130,7 @@
 }
 
 .card-2 {
-  font-size: 18.8px;
+  font-size: 17.09px;
 }
 
 @media (max-width: $breakpoint-xs-max) {

@@ -19,13 +19,15 @@
       settings etc.
     </p>
 
-    <div class="flex flex-center q-my-md">
+    <!-- <div class="flex flex-center q-my-md">
       <q-video
         class="radius-16"
         style="height: 500px; width: 900px"
         src="https://www.youtube.com/embed/ZpZd_sZvh_s"
       />
-    </div>
+    </div> -->
+
+    <div class="line-icon"></div>
 
     <p class="q-mt-sm">
       So if you just want to get started doing everything yourself, "Core" is
@@ -47,3 +49,34 @@
     </q-card>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.line-icon {
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  background-image: url("/images/logoIcon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  height: 40px;
+}
+.line-icon::before,
+.line-icon::after {
+  box-sizing: border-box;
+  width: 40%;
+  height: 1px;
+  border-top: 1px solid #d6d6d6;
+  display: inline-block;
+  content: "";
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  top: 50%;
+  -moz-transform: translatey(-50%);
+  -ms-transform: translatey(-50%);
+  -o-transform: translatey(-50%);
+  -webkit-transform: translatey(-50%);
+  transform: translatey(-50%);
+}
+</style>
