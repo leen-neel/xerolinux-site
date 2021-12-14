@@ -11,29 +11,21 @@
         transition-hide="jump-up"
       >
         <q-list style="min-width: 100px">
-          <a href="#about">
-            <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> About </q-item-section>
-            </q-item>
-          </a>
+          <q-item @click="about" class="text-center q-ma-sm" clickable>
+            <q-item-section> About </q-item-section>
+          </q-item>
 
-          <a href="#editions">
-            <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> Editions </q-item-section>
-            </q-item>
-          </a>
+          <q-item @click="editions" class="text-center q-ma-sm" clickable>
+            <q-item-section> Editions </q-item-section>
+          </q-item>
 
-          <a href="#xeroporn">
-            <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> XeroPorn </q-item-section>
-            </q-item>
-          </a>
+          <q-item @click="xeroporn" class="text-center q-ma-sm" clickable>
+            <q-item-section> XeroPorn </q-item-section>
+          </q-item>
 
-          <a href="#gallery">
-            <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> Gallery </q-item-section>
-            </q-item>
-          </a>
+          <q-item @click="gallery" class="text-center q-ma-sm" clickable>
+            <q-item-section> Gallery </q-item-section>
+          </q-item>
 
           <a href="https://forum.xerolinux.xyz/">
             <q-item class="text-center q-ma-sm" clickable v-close-popup>
@@ -52,8 +44,32 @@ import { defineComponent, ref } from "vue";
 export default defineComponent({
   setup() {
     const menu = ref(true);
+
+    const about = () => {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    };
+
+    const editions = () => {
+      document
+        .getElementById("editions")
+        .scrollIntoView({ behavior: "smooth" });
+    };
+
+    const xeroporn = () => {
+      document
+        .getElementById("xeroporn")
+        .scrollIntoView({ behavior: "smooth" });
+    };
+
+    const gallery = () => {
+      document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
+    };
     return {
       menu,
+      about,
+      editions,
+      xeroporn,
+      gallery,
     };
   },
 });

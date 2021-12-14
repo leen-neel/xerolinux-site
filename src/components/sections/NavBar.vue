@@ -4,28 +4,10 @@
 
     <q-space />
 
-    <q-btn label="About" flat style="font-size: 18px" type="a" href="#about" />
-    <q-btn
-      label="Editions"
-      flat
-      style="font-size: 18px"
-      type="a"
-      href="#editions"
-    />
-    <q-btn
-      label="XeroPorn"
-      flat
-      style="font-size: 18px"
-      type="a"
-      href="#xeroporn"
-    />
-    <q-btn
-      label="Gallery"
-      flat
-      style="font-size: 18px"
-      type="a"
-      href="#gallery"
-    />
+    <q-btn label="About" flat style="font-size: 18px" @click="about" />
+    <q-btn label="Editions" flat style="font-size: 18px" @click="editions" />
+    <q-btn label="XeroPorn" flat style="font-size: 18px" @click="xeroporn" />
+    <q-btn label="Gallery" flat style="font-size: 18px" @click="gallery" />
     <q-btn
       label="Forum"
       flat
@@ -36,3 +18,36 @@
     />
   </div>
 </template>
+
+<script>
+export default {
+  setup() {
+    const about = () => {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    };
+
+    const editions = () => {
+      document
+        .getElementById("editions")
+        .scrollIntoView({ behavior: "smooth" });
+    };
+
+    const xeroporn = () => {
+      document
+        .getElementById("xeroporn")
+        .scrollIntoView({ behavior: "smooth" });
+    };
+
+    const gallery = () => {
+      document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
+    };
+
+    return {
+      about,
+      editions,
+      xeroporn,
+      gallery,
+    };
+  },
+};
+</script>
