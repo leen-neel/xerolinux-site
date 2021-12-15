@@ -5,27 +5,40 @@
 
   <div class="text-left q-pa-md q-mt-sm">
     <p>
-      This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
-      personal project I am working on that I thought I would share, in case
-      someone out there shares my passion for building Linux.
+      It Comes in 2 flavors, "Main Edition" and "XFCE Edition". What's the
+      difference between the two you may ask ? Let me explain.
     </p>
 
     <p>
-      It Comes in 2 flavors, "Core Edition" and "Main Edition". What's the
-      difference between the two you may ask ? Well "Core" is just Arch &
-      Vanilla KDE with drivers install unlocked for you to select the right ones
-      for your hardware whereas "Main" has all the bells an whistles, like a
-      full custom rice complete with Latte-Dock and theme, to customized
-      settings etc.
+      The former is our "Flagship" release, it uses KDE(bold) as its DE and
+      offers a wide variety of packages to choose from during install, support
+      for a wide host of Hardware, not to mention the level of customisation
+      that KDE brings with it.
     </p>
 
     <div class="line-icon"></div>
 
     <p class="q-mt-sm">
-      So if you just want to get started doing everything yourself, "Core" is
-      for you, but if you want the ease of doing less and being up and running
-      without much effort also you like the eye candy, then "Main" is the right
-      choice.
+      While the latter was created for all of you out there that don't have
+      powerful enough hardware to run our "Flagship" release that uses tons of
+      effects and other tools that use a lot of system resources. It uses
+      XFCE(bold) as its DE, as it's one of the lightest out there, that can
+      still be made to look great without impacting performance. Don't worry
+      though, it still retains most of the main features but with a bit less
+      options.
+    </p>
+
+    <div class="line-icon"></div>
+
+    <p>
+      So if you have a beast Rig and want to experience my vision to its fullest
+      then you can't go wrong with the "Main Edition".
+    </p>
+
+    <p>
+      On the other hand, if performance is more important to you or your rig
+      isn't powerful enough and you still want to give XeroLinux(bold) a try,
+      then "XFCE Edition" is the answer for you.
     </p>
 
     <p>As the saying goes...</p>
