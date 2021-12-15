@@ -23,10 +23,11 @@
           <div class="text-h3 text-center header">XeroLinux Main</div>
         </q-card-section>
         <q-card-section>
-          This one is a bit long in the tooth to describe, suffice it to say
-          that this one is where you get all the bells and whistles. It's got so
-          many that you will HAVE to read the entire Release notes to get the
-          big picture.
+          This is our "Flagship" release. It uses KDE as its DE with a lot going
+          on in the <em>EyeCandy</em> department. It also offers more package
+          options during install, supports more Hardware, like Surface laptops,
+          Wacom tablets and more. It also has a more fully featured Post-Install
+          tool. Not meant for Low-End hardware.
         </q-card-section>
         <q-card-actions class="row justify-evenly q-pa-sm">
           <q-btn
@@ -81,9 +82,9 @@
           <strong>XFCE.</strong>
         </q-card-section>
 
-        <q-card-section class="q-pa-none q-mb-sm">
+        <q-card-section class="q-ma-none">
           <div class="text-h5 text-center">
-            <q-badge color="primary" class="text-h6 text-weight-bolder">
+            <q-badge color="negative" class="text-h6 text-weight-bolder">
               Coming soon!
             </q-badge>
           </div>

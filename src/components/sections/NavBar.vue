@@ -1,6 +1,6 @@
 <template>
   <div class="nav-bg fixed-top row z-top q-pa-md q-gutter-sm">
-    <div class="text-h4">XeroLinux</div>
+    <div @click="home" class="cursor-pointer text-h4">XeroLinux</div>
 
     <q-space />
 
@@ -22,6 +22,10 @@
 <script>
 export default {
   setup() {
+    const home = () => {
+      document.getElementById("hero").scrollIntoView({ behavior: "smooth" });
+    };
+
     const about = () => {
       document.getElementById("about").scrollIntoView({ behavior: "smooth" });
     };
@@ -47,6 +51,7 @@ export default {
       editions,
       xeroporn,
       gallery,
+      home,
     };
   },
 };

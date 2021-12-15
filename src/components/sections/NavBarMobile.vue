@@ -1,6 +1,6 @@
 <template>
   <div class="fixed-top row nav-bg full-width z-top q-pa-md q-gutter-sm">
-    <div class="text-h4">XeroLinux</div>
+    <div @click="home" class="cursor-pointer text-h4">XeroLinux</div>
 
     <q-space />
 
@@ -43,7 +43,9 @@ import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   setup() {
-    const menu = ref(true);
+    const home = () => {
+      document.getElementById("hero").scrollIntoView({ behavior: "smooth" });
+    };
 
     const about = () => {
       document.getElementById("about").scrollIntoView({ behavior: "smooth" });
@@ -65,11 +67,11 @@ export default defineComponent({
       document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
     };
     return {
-      menu,
       about,
       editions,
       xeroporn,
       gallery,
+      home,
     };
   },
 });
