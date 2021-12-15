@@ -28,7 +28,7 @@
           many that you will HAVE to read the entire Release notes to get the
           big picture.
         </q-card-section>
-        <q-card-actions class="row justify-evenly">
+        <q-card-actions class="row justify-evenly q-pa-sm">
           <q-btn
             label="Full Release notes"
             color="accent"
@@ -62,22 +62,33 @@
         </q-card-actions>
       </q-card>
       <!-- Core -->
+
       <q-card class="edition-card card-2 radius-16">
         <q-img
-          src="https://i.imgur.com/27KxEm6.jpeg"
+          src="https://cdn.discordapp.com/attachments/912888928749645896/920342867115909120/unknown.png"
           spinner-color="primary"
           spinner-size="82px"
         />
         <q-card-section>
-          <div class="text-h3 text-center header">XeroLinux Core</div>
+          <div class="text-h3 text-center header">XeroLinux XFCE</div>
         </q-card-section>
         <q-card-section>
-          It’s a stripped down version of the main release. Yes, this will not
-          have the fancy look that main edition has, nor does it have any of the
-          bells n whistles. But it still retains the Driver selector page for
-          best compatibility.
+          You don't have powerful enough hardware to enjoy our flagship release
+          which uses KDE with a lot of resource hungry effects and tools? Then
+          this edition is for you. It has most of the
+          <em>Flagship's</em> features, but we toned down the effects, and it's
+          running one of the lightest and still customizable DEs out there
+          <strong>XFCE.</strong>
         </q-card-section>
-        <q-card-actions class="row justify-evenly">
+
+        <q-card-section class="q-pa-none q-mb-sm">
+          <div class="text-h5 text-center">
+            <q-badge color="primary" class="text-h6 text-weight-bolder">
+              Coming soon!
+            </q-badge>
+          </div>
+        </q-card-section>
+        <q-card-actions v-if="false" class="row justify-evenly">
           <q-btn
             label="Full Release notes"
             color="accent"
