@@ -15,7 +15,7 @@
       difference between the two you may ask ? Let me explain.
     </p>
 
-    <div class="q-mt-lg text-h4 header">XeroLinux Main</div>
+    <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
     <p class="q-mt-md">
       The former is our "Flagship" release, it uses <strong>KDE</strong> as its
       DE and offers a wide variety of packages to choose from during install,
@@ -23,7 +23,7 @@
       customisation that KDE brings with it.
     </p>
 
-    <div class="q-mt-lg text-h4 header">XeroLinux XFCE</div>
+    <div class="q-mt-lg text-h4 header">- XeroLinux XFCE</div>
     <p class="q-mt-md">
       While the latter was created for all of you out there that don't have
       powerful enough hardware to run our "Flagship" release that uses tons of
