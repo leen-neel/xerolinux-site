@@ -10,21 +10,21 @@
       someone out there shares my passion for building Linux.
     </p>
 
-    <p>
+    <p class="q-mt-lg">
       It Comes in 2 flavors, "Main Edition" and "XFCE Edition". What's the
       difference between the two you may ask ? Let me explain.
     </p>
 
-    <p>
+    <div class="q-mt-lg text-h4 header">XeroLinux Main</div>
+    <p class="q-mt-md">
       The former is our "Flagship" release, it uses <strong>KDE</strong> as its
       DE and offers a wide variety of packages to choose from during install,
       support for a wide host of Hardware, not to mention the level of
       customisation that KDE brings with it.
     </p>
 
-    <div class="line-icon"></div>
-
-    <p class="q-mt-sm">
+    <div class="q-mt-lg text-h4 header">XeroLinux XFCE</div>
+    <p class="q-mt-md">
       While the latter was created for all of you out there that don't have
       powerful enough hardware to run our "Flagship" release that uses tons of
       effects and other tools that use a lot of system resources. It uses
@@ -41,14 +41,14 @@
       then you can't go wrong with the "Main Edition".
     </p>
 
-    <p>
+    <p class="q-mt-lg">
       On the other hand, if performance is more important to you or your rig
       isn't powerful enough and you still want to give
       <storng>XeroLinux</storng> a try, then "XFCE Edition" is the answer for
       you.
     </p>
 
-    <p>As the saying goes...</p>
+    <p class="q-mt-lg">As the saying goes...</p>
 
     <q-card class="my-card">
       <q-card-section>
