@@ -41,6 +41,17 @@
           size="15px"
           class="q-mx-sm"
         />
+
+        <q-btn
+          color="primary"
+          icon="fab fa-patreon"
+          round
+          type="a"
+          href="https://www.patreon.com/XeroLinux"
+          target="_blank"
+          size="15px"
+          class="q-mx-sm"
+        />
         <q-btn
           color="primary"
           icon="fab fa-youtube"
