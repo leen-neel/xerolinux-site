@@ -34,7 +34,7 @@
       less options.
     </p>
 
-    <div class="line-icon"></div>
+    <div class="line-icon q-my-lg"></div>
 
     <p>
       So if you have a beast Rig and want to experience my vision to its fullest
