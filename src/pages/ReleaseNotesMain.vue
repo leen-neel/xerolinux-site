@@ -145,7 +145,8 @@
       black screen or won't allow you to get to the installer. So added the
       right boot options to help with that. Just make sure to select the right
       one for you. For example if you have an nVidia card select one of the two
-      nVidia options.
+      nVidia options. More info on
+      <a href="https://forum.xerolinux.xyz/thread-7.html">this forum thread.</a>
     </p>
 
     <div class="text-h6 q-mb-sm text-left text-bold">KDE Wayland Session:</div>
