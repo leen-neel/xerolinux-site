@@ -15,8 +15,9 @@
 
       <note-info icon="help_outline" class="q-mb-lg" title="Note">
         <p>
-          XeroLinux was born as a KDE only minimal Distro. It has now grown to
-          include XFCE. And no WMs please do not request any. The more I add the
+          <strong>XeroLinux</strong> was born as a <strong>KDE</strong> only
+          minimal Distro. It has now grown to include <strong>XFCE</strong>. And
+          no <strong>WMs</strong> please do not request any. The more I add the
           further it will drift from original vision.
         </p>
 
@@ -140,6 +141,11 @@
       <div class="text-h6 q-mb-sm text-left text-bold">
         Other Various features :
       </div>
+      <q-video
+        :ratio="16 / 9"
+        class="q-mb-sm radius-16"
+        src="https://www.youtube.com/embed/w1XYnBtHVZE?rel=0"
+      />
       <ul>
         <li>
           <strong>OS prober</strong> is installed by default for managing
@@ -175,9 +181,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-ul {
-  list-style: " - ";
-}
-</style>
