@@ -113,7 +113,7 @@
         right boot options to help with that. Just make sure to select the right
         one for you. For example if you have an nVidia card select one of the
         two nVidia options. More info on
-        <a href="https://forum.xerolinux.xyz/thread-7.html"
+        <a href="https://forum.xerolinux.xyz/thread-7.html" target="_blank"
           >this forum thread.</a
         >
       </p>
