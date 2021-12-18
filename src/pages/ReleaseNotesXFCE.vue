@@ -141,11 +141,12 @@
       <div class="text-h6 q-mb-sm text-left text-bold">
         Other Various features :
       </div>
-      <q-video
-        :ratio="16 / 9"
-        class="q-mb-sm radius-16"
-        src="https://www.youtube.com/embed/w1XYnBtHVZE?rel=0"
-      />
+      <div class="flex flex-center">
+        <q-video
+          class="q-mb-sm radius-16"
+          src="https://www.youtube.com/embed/w1XYnBtHVZE?rel=0"
+        />
+      </div>
       <ul>
         <li>
           <strong>OS prober</strong> is installed by default for managing
@@ -181,3 +182,17 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.q-video {
+  width: 700px;
+  height: 350px;
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  .q-video {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>

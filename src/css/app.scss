@@ -39,6 +39,11 @@
   border-radius: 16px !important;
 }
 
+.q-video {
+  width: 700px;
+  height: 350px;
+}
+
 body {
   font-family: "Fira";
   font-size: 18px;
@@ -72,6 +77,10 @@ img {
   }
   body {
     font-size: 15px;
+  }
+  .q-video {
+    width: 100%;
+    height: auto;
   }
 }
 

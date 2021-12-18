@@ -43,11 +43,12 @@
       </p>
     </note-info>
 
-    <q-video
-      :ratio="16 / 9"
-      class="q-mb-sm radius-16"
-      src="https://www.youtube.com/embed/UKg43SFtAL8?rel=0"
-    />
+    <div class="flex flex-center">
+      <q-video
+        class="q-mb-sm radius-16"
+        src="https://www.youtube.com/embed/UKg43SFtAL8?rel=0"
+      />
+    </div>
 
     <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
@@ -267,11 +268,12 @@
       for modern hardware.
     </p>
 
-    <q-video
-      :ratio="16 / 9"
-      class="q-mb-sm radius-16"
-      src="https://www.youtube.com/embed/HxEXMHcwtlI?rel=0"
-    />
+    <div class="flex flex-center">
+      <q-video
+        class="q-mb-sm radius-16"
+        src="https://www.youtube.com/embed/HxEXMHcwtlI?rel=0"
+      />
+    </div>
 
     <p class="q-mb-lg">
       I give you the choice between the 2. So please make sure to only select
@@ -302,11 +304,12 @@
     </p>
 
     <div class="text-h6 q-mb-sm text-left text-bold">Other Various fixes:</div>
-    <q-video
-      :ratio="16 / 9"
-      class="q-mb-sm radius-16"
-      src="https://www.youtube.com/embed/w1XYnBtHVZE?rel=0"
-    />
+    <div class="flex flex-center">
+      <q-video
+        :ratio="16 / 9"
+        src="https://www.youtube.com/embed/w1XYnBtHVZE?rel=0"
+      />
+    </div>
     <ul>
       <li>Fixed reset script which allows you to get back to stock config.</li>
 
