@@ -13,7 +13,7 @@
 
       <div class="text-center q-mb-sm text-h4">⚠️ Disclaimer ⚠️</div>
 
-      <note-info icon="help_outline" class="q-mb-lg" title="Note">
+      <note-info icon="help_outline" class="q-mb-lg bg-warning" title="Note">
         <p>
           <strong>XeroLinux</strong> was born as a <strong>KDE</strong> only
           minimal Distro. It has now grown to include <strong>XFCE</strong>. And
@@ -31,7 +31,7 @@
 
       <div class="text-center q-mb-sm text-h4">What is XFCE edition?</div>
 
-      <note-info icon="help_outline" class="q-mb-lg" title="Note">
+      <note-info icon="help_outline" class="q-mb-lg bg-warning" title="Note">
         <p>
           It was created for all of you out there that don't have powerful
           enough hardware to run our "Flagship" release that uses tons of
@@ -76,7 +76,7 @@
       </p>
 
       <div class="text-h6 q-mb-sm text-left text-bold">AUR Helper:</div>
-      <note-info icon="help_outline" class="q-mb-lg" title="Note">
+      <note-info icon="help_outline" class="q-mb-lg bg-warning" title="Note">
         <p>
           <strong>XeroLinux</strong> uses <strong>Paru</strong> as the
           <strong>AUR</strong> helper instead of <strong>YaY</strong>.. Just use
