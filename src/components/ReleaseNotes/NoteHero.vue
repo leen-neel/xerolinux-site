@@ -19,11 +19,12 @@ export default {
 <style lang="scss" scoped>
 .hero {
   background: linear-gradient(
-    180deg,
-    rgba(40, 42, 54, 0.065) 30.88%,
-    rgba(0, 0, 0, 0.5) 67.29%
-  );
-  background: url("/images/hero.jpg") no-repeat center / cover;
+      180deg,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(40, 42, 54, 0.13) 50.37%,
+      rgba(40, 42, 54, 0.92) 87.55%
+    ),
+    url("/images/hero.jpg") no-repeat center / cover;
   height: 50vh;
 }
 </style>

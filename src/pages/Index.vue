@@ -36,6 +36,7 @@ export default defineComponent({
     Editions,
     Gallery,
     XeroPorn,
+    AnnouncementBanner,
   },
 });
 </script>

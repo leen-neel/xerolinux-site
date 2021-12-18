@@ -4,6 +4,7 @@
 
     <q-space />
 
+    <q-btn label="Home" flat style="font-size: 18px" @click="home" />
     <q-btn label="About" flat style="font-size: 18px" @click="about" />
     <q-btn label="Editions" flat style="font-size: 18px" @click="editions" />
     <q-btn label="XeroPorn" flat style="font-size: 18px" @click="xeroporn" />

@@ -35,9 +35,7 @@
             color="accent"
             class="btn q-ma-sm"
             icon="note"
-            type="a"
-            href="https://forum.xerolinux.xyz/thread-4.html"
-            target="_blank"
+            to="/mainreleasenotes"
             style="font-size: 13px"
           />
           <q-btn
@@ -89,15 +87,16 @@
             </q-badge>
           </div>
         </q-card-section>
+        <!-- type="a"
+            href="https://forum.xerolinux.xyz/thread-14.html"
+            target="_blank" -->
         <q-card-actions v-if="false" class="row justify-evenly">
           <q-btn
             label="Full Release notes"
             color="accent"
             class="btn q-ma-sm"
             icon="note"
-            type="a"
-            href="https://forum.xerolinux.xyz/thread-14.htm"
-            target="_blank"
+            to="/mainreleasenotes"
             style="font-size: 13px"
           />
           <q-btn
