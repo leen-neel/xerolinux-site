@@ -12,7 +12,11 @@
 
     <div class="text-center q-mb-sm text-h4">⚠️ Disclaimer ⚠️</div>
 
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info
+      icon="help_outline"
+      class="q-mb-lg bg-positive bg-positive"
+      title="Note"
+    >
       <p>
         <strong>XeroLinux</strong> was born as a <strong>KDE</strong> only
         minimal Distro. It has now grown to include <strong>XFCE</strong>. And
@@ -30,7 +34,7 @@
 
     <div class="text-center q-mb-sm text-h4">What is Main edition?</div>
 
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
         This one is a bit long in the tooth to describe, suffice it to say that
         this one is where you get all the bells and whistles. It's got so many
@@ -45,7 +49,7 @@
       src="https://www.youtube.com/embed/UKg43SFtAL8?rel=0"
     />
 
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
         It uses new Rice, got Snapper n TimeShift as well as my new XeroLinux
         Tool with which you can do some of the post install stuff and much much
@@ -82,7 +86,7 @@
     </p>
 
     <div class="text-h6 q-mb-sm text-left text-bold">AUR Helper:</div>
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
         <strong>XeroLinux</strong> uses <strong>Paru</strong> as the
         <strong>AUR</strong> helper instead of <strong>YaY</strong>.. Just use
@@ -162,7 +166,7 @@
       <strong>Wayland</strong> for now...
     </p>
 
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
         Kindly note, that I will not be providing support in that area since, I
         am not yet confident in using it. But feel free to visit any of the
@@ -187,7 +191,7 @@
       </li>
     </ul>
 
-    <note-info icon="help_outline" class="q-mb-lg" title="Note">
+    <note-info icon="help_outline" class="q-mb-lg bg-positive" title="Note">
       <p>
         If I were you I would stick to <strong>X11</strong> for now. I just
         added <strong>Wayland</strong> for the future when

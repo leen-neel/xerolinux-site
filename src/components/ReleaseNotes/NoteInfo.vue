@@ -1,5 +1,5 @@
 <template>
-  <q-card class="info-card radius-16 bg-positive text-black">
+  <q-card class="info-card radius-16 text-black">
     <q-card-section>
       <div class="text-h6 text-bold flex items-center">
         <q-icon v-if="icon" :name="icon" class="q-mr-sm" />
