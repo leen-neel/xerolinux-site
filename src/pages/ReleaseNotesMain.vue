@@ -46,9 +46,21 @@
         <img class="radius-16" src="https://i.imgur.com/jnEy01P.png" />
       </div>
 
-      <div class="text-center q-mb-sm text-h5">
+      <div class="text-left q-mb-lg text-h4">
         Kindly read entire Article before installing
       </div>
+
+      <div class="text-h6 text-left text-bold">System Requirements:</div>
+      <ul>
+        <li>
+          <strong>Minimum:</strong> Core i3 or AMD Equivalent CPU, 2gb RAM,
+          Intel integrated Graphics, and 16gb Storage.
+        </li>
+        <li>
+          <strong>Recommended:</strong> Core i7 or AMD Equivalent CPU, 16gb RAM,
+          AMD/900 series <strong>nVidia GPU</strong>, and 32gb Storage.
+        </li>
+      </ul>
     </section>
   </q-page>
 </template>

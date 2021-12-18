@@ -1,5 +1,5 @@
 <template>
-  <q-card class="info-card bg-warning text-black">
+  <q-card class="info-card radius-16 bg-warning text-black">
     <q-card-section>
       <div class="text-h6 text-bold">{{ title }}</div>
     </q-card-section>
