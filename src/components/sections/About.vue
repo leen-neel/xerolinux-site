@@ -62,7 +62,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .line-icon {
   box-sizing: border-box;
   position: relative;

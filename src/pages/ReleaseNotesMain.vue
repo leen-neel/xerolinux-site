@@ -114,26 +114,28 @@
         two nVidia options.
       </p>
 
-      <div class="text-left q-mb-lg text-h4">The Xero XFCE Rice</div>
-      <p>
-        Well, when it comes to ricing, that's where
-        <strong>XeroLinux</strong> shines right ? For top panel we opted to use
-        <a href="https://polybar.github.io/" target="_blank">PolyBar</a> with
-        the
-        <a
-          href="https://github.com/adi1090x/polybar-themes#cuts"
-          target="_blank"
-          >Cuts</a
-        >
-        theme. As for the Dock, we opted to use
-        <a href="https://github.com/ricotz/plank" target="_blank">Plank</a>,
-        suitable for XFCE and lightweight.
-      </p>
-      <p class="q-mb-lg">
-        Finally we used a various assortment of lightweight tweaks and effects
-        to give it an oompf... Without making it eat up more resources than it
-        should.
-      </p>
+      <note-section title="The Xero XFCE Rice">
+        <p>
+          Well, when it comes to ricing, that's where
+          <strong>XeroLinux</strong> shines right ? For top panel we opted to
+          use
+          <a href="https://polybar.github.io/" target="_blank">PolyBar</a> with
+          the
+          <a
+            href="https://github.com/adi1090x/polybar-themes#cuts"
+            target="_blank"
+            >Cuts</a
+          >
+          theme. As for the Dock, we opted to use
+          <a href="https://github.com/ricotz/plank" target="_blank">Plank</a>,
+          suitable for XFCE and lightweight.
+        </p>
+        <p class="q-mb-lg">
+          Finally we used a various assortment of lightweight tweaks and effects
+          to give it an oompf... Without making it eat up more resources than it
+          should.
+        </p>
+      </note-section>
 
       <div class="text-h6 q-mb-sm text-left text-bold">
         Other Various features :
