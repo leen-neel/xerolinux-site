@@ -61,6 +61,17 @@ ul {
   list-style: " - ";
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: $breakpoint-xs-max) {
+  img {
+    width: 300px;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
