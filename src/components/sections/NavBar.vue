@@ -5,10 +5,34 @@
     <q-space />
 
     <q-btn label="Home" flat style="font-size: 18px" to="/" />
-    <q-btn label="About" flat style="font-size: 18px" @click="about" />
-    <q-btn label="Editions" flat style="font-size: 18px" @click="editions" />
-    <q-btn label="XeroPorn" flat style="font-size: 18px" @click="xeroporn" />
-    <q-btn label="Gallery" flat style="font-size: 18px" @click="gallery" />
+    <q-btn
+      v-if="isHome"
+      label="About"
+      flat
+      style="font-size: 18px"
+      @click="about"
+    />
+    <q-btn
+      v-if="isHome"
+      label="Editions"
+      flat
+      style="font-size: 18px"
+      @click="editions"
+    />
+    <q-btn
+      v-if="isHome"
+      label="XeroPorn"
+      flat
+      style="font-size: 18px"
+      @click="xeroporn"
+    />
+    <q-btn
+      v-if="isHome"
+      label="Gallery"
+      flat
+      style="font-size: 18px"
+      @click="gallery"
+    />
     <q-btn
       label="Forum"
       flat
@@ -21,6 +45,8 @@
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+import { computed } from "vue";
 export default {
   setup() {
     const home = () => {
@@ -47,12 +73,18 @@ export default {
       document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
     };
 
+    const route = useRoute();
+    const isHome = computed(() => {
+      return route.fullPath == "/";
+    });
+
     return {
       about,
       editions,
       xeroporn,
       gallery,
       home,
+      isHome,
     };
   },
 };
