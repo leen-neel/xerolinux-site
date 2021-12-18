@@ -48,6 +48,15 @@ body.body--dark {
   background-color: #282a36;
 }
 
+a {
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

@@ -51,7 +51,7 @@
       </div>
 
       <div class="text-h6 text-left text-bold">System Requirements:</div>
-      <ul>
+      <ul class="q-mb-lg">
         <li>
           <strong>Minimum:</strong> Core i3 or AMD Equivalent CPU, 2gb RAM,
           Intel integrated Graphics, and 16gb Storage.
@@ -59,6 +59,101 @@
         <li>
           <strong>Recommended:</strong> Core i7 or AMD Equivalent CPU, 16gb RAM,
           AMD/900 series <strong>nVidia GPU</strong>, and 32gb Storage.
+        </li>
+      </ul>
+
+      <div class="text-h6 text-left text-bold">How to Burn ISO to USB:</div>
+      <p class="q-mb-lg">
+        The recommended method to create USB is to use
+        <a href="https://www.balena.io/etcher/" target="_blank">Etcher</a> or
+        <a
+          target="_blank"
+          href="https://forum.xerolinux.xyz/showthread.php?tid=30"
+          >Ventoy</a
+        >. Do not use Rufus. For better results it's better to use one of those
+        two. Rufus is for Windows.
+      </p>
+
+      <div class="text-h6 q-mb-sm text-left text-bold">AUR Helper:</div>
+      <note-info class="q-mb-lg" title="Note">
+        <p>
+          <strong>XeroLinux</strong> uses <strong>Paru</strong> as the
+          <strong>AUR</strong> helper instead of <strong>YaY</strong>.. Just use
+          pget packagename in Terminal to grab AUR stuff... If you prefer YaY
+          then get it with Paru lol...
+        </p>
+      </note-info>
+
+      <div class="text-h6 q-mb-sm text-left text-bold">New Calamares:</div>
+      <p>
+        Calamares installer has been updated to v3.2.49.1. It fixed many issues,
+        among which are the following :
+      </p>
+      <ul class="q-mb-lg">
+        <li>
+          The option to send logs when an installation failed is now working
+          again.
+        </li>
+        <li>
+          <strong>Calamares</strong> can now display
+          <strong>Pacman</strong> actions under the progress bar.
+        </li>
+        <li>Fixes in the partition, zfs and packages modules.</li>
+      </ul>
+
+      <div class="text-h6 q-mb-sm text-left text-bold">"nVidia" On Boot:</div>
+
+      <div class="flex q-mb-lg flex-center">
+        <img class="radius-16" src="https://i.imgur.com/qXowiDl.png" />
+      </div>
+      <p>
+        The other issue was the one where nVidia drivers would get you stuck on
+        a black screen or won't allow you to get to the installer. So added the
+        right boot options to help with that. Just make sure to select the right
+        one for you. For example if you have an nVidia card select one of the
+        two nVidia options.
+      </p>
+
+      <div class="text-left q-mb-lg text-h4">The Xero XFCE Rice</div>
+      <p>
+        Well, when it comes to ricing, that's where
+        <strong>XeroLinux</strong> shines right ? For top panel we opted to use
+        <a href="https://polybar.github.io/" target="_blank">PolyBar</a> with
+        the
+        <a
+          href="https://github.com/adi1090x/polybar-themes#cuts"
+          target="_blank"
+          >Cuts</a
+        >
+        theme. As for the Dock, we opted to use
+        <a href="https://github.com/ricotz/plank" target="_blank">Plank</a>,
+        suitable for XFCE and lightweight.
+      </p>
+      <p class="q-mb-lg">
+        Finally we used a various assortment of lightweight tweaks and effects
+        to give it an oompf... Without making it eat up more resources than it
+        should.
+      </p>
+
+      <div class="text-h6 q-mb-sm text-left text-bold">
+        Other Various features :
+      </div>
+      <ul>
+        <li>
+          <strong>OS prober</strong> is installed by default for managing
+          multi-booting systems.
+        </li>
+        <li>
+          <strong>VMD</strong> support been added to enable
+          <strong>Intel RST Drives</strong> to berecognized.
+        </li>
+        <li>
+          Uses <strong>ZSTD</strong> compression for faster compiling. (Credit
+          to <strong>ArcoLinux</strong>)
+        </li>
+        <li>
+          Supports more <strong>PCIe-based M.2</strong> drives on ISO boot and
+          to <strong>GRUB</strong>.
         </li>
       </ul>
     </section>
@@ -78,3 +173,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+ul {
+  list-style: " - ";
+}
+</style>
