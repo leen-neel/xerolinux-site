@@ -8,6 +8,10 @@ const routes = [
         path: "/mainreleasenotes",
         component: () => import("pages/ReleaseNotesMain.vue"),
       },
+      {
+        path: "/xfcereleasenotes",
+        component: () => import("pages/ReleaseNotesXFCE.vue"),
+      },
     ],
   },
 
