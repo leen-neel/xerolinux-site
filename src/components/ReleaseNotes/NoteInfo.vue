@@ -6,7 +6,7 @@
         {{ title }}
       </div>
     </q-card-section>
-    <q-card-section>
+    <q-card-section class="info">
       <slot> </slot>
     </q-card-section>
   </q-card>

@@ -44,7 +44,7 @@
       </note-info>
 
       <div class="flex q-mb-lg flex-center">
-        <img class="radius-16" src="https://i.imgur.com/jnEy01P.png" />
+        <img class="radius-16" src="https://i.imgur.com/OSxaD8V.png" />
       </div>
 
       <div class="text-left q-mb-lg text-h4">
@@ -121,8 +121,13 @@
       <note-section title="The Xero XFCE Rice">
         <p>
           Well, when it comes to ricing, that's where
-          <strong>XeroLinux</strong> shines right ? For top panel we opted to
-          use
+          <strong>XeroLinux</strong> shines right? Since it's
+          <strong>Christmas</strong>, we used the Green/Red color scheme without
+          overdoing things.
+        </p>
+
+        <p>
+          For top panel we opted to use
           <a href="https://polybar.github.io/" target="_blank">PolyBar</a> with
           the
           <a
@@ -134,12 +139,30 @@
           <a href="https://github.com/ricotz/plank" target="_blank">Plank</a>,
           suitable for XFCE and lightweight.
         </p>
+
+        <p>
+          We also used
+          <a href="https://github.com/davatorium/rofi" target="_blank">Rofi</a>
+          for the App-Menu/Search tool, which we also customized to go with the
+          overall look of the distro.
+        </p>
+
         <p class="q-mb-lg">
           Finally we used a various assortment of lightweight tweaks and effects
           to give it an oompf... Without making it eat up more resources than it
           should.
         </p>
       </note-section>
+
+      <note-info icon="help_outline" class="q-mb-lg bg-warning" title="Note">
+        This Edition uses the
+        <a href="https://wiki.archlinux.org/title/Picom" target="_blank"
+          >PiCom</a
+        >
+        Compositor, so if you want to test in a VM like <strong>vBox</strong>,
+        just know that it doesn't play well together as a result composition
+        will be disabled there.
+      </note-info>
 
       <div class="text-h6 q-mb-sm text-left text-bold">
         Other Various features :
@@ -190,6 +213,17 @@ export default {
 .q-video {
   width: 700px;
   height: 350px;
+}
+
+.info {
+  a {
+    color: black;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 @media (max-width: $breakpoint-xs-max) {
