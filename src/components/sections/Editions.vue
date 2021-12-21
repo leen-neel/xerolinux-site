@@ -35,7 +35,9 @@
             color="accent"
             class="btn q-ma-sm"
             icon="note"
-            to="/mainreleasenotes"
+            type="a"
+            href="https://forum.xerolinux.xyz/thread-4.html"
+            target="_blank"
             style="font-size: 13px"
           />
           <q-btn
@@ -60,7 +62,7 @@
           />
         </q-card-actions>
       </q-card>
-      <!-- Core -->
+      <!-- XFCE -->
 
       <q-card class="edition-card card-2 radius-16">
         <q-img
@@ -87,16 +89,16 @@
             </q-badge>
           </div>
         </q-card-section>
-        <!-- type="a"
-            href="https://forum.xerolinux.xyz/thread-14.html"
-            target="_blank" -->
+
         <q-card-actions v-if="false" class="row justify-evenly">
           <q-btn
             label="Full Release notes"
             color="accent"
             class="btn q-ma-sm"
             icon="note"
-            to="/mainreleasenotes"
+            type="a"
+            href="https://forum.xerolinux.xyz/thread-14.html"
+            target="_blank"
             style="font-size: 13px"
           />
           <q-btn
