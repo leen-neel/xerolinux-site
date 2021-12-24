@@ -3,7 +3,7 @@
     <Hero />
 
     <AnnouncementBanner :hasAnnoouncement="true">
-      Coming soon: XeroLinux XFCE Edition!
+      New: XFCE Edition is Live!!!
 
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>

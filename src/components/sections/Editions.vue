@@ -66,7 +66,7 @@
 
       <q-card class="edition-card card-2 radius-16">
         <q-img
-          src="https://cdn.discordapp.com/attachments/912888928749645896/920342867115909120/unknown.png"
+          src="https://i.imgur.com/TDU3Hgd.png"
           spinner-color="primary"
           spinner-size="82px"
         />
@@ -82,15 +82,7 @@
           <strong>XFCE.</strong>
         </q-card-section>
 
-        <q-card-section class="q-ma-none">
-          <div class="text-h5 text-center">
-            <q-badge color="negative" class="text-h6 text-weight-bolder">
-              Coming soon!
-            </q-badge>
-          </div>
-        </q-card-section>
-
-        <q-card-actions v-if="false" class="row justify-evenly">
+        <q-card-actions class="row justify-evenly">
           <q-btn
             label="Full Release notes"
             color="accent"
@@ -107,7 +99,7 @@
             color="accent"
             class="btn q-ma-sm"
             type="a"
-            href="https://sourceforge.net/projects/xerolinux/files/Releases/Core/xerolinux-core-x86_64.iso/download"
+            href="https://sourceforge.net/projects/xerolinux/files/Releases/XFCE/xerolinux-xfce-x86_64.iso/download"
             target="_blank"
             style="font-size: 13px"
           />
