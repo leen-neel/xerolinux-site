@@ -23,6 +23,19 @@
       customisation that KDE brings with it.
     </p>
 
+    <div class="q-mt-lg text-h4 header">- XeroLinux GNOME</div>
+    <p class="q-mt-md">
+      This was requested hard on both Discord and Telegram. I succumb to the
+      pressure and released it. It fully supports Wayland on nVidia cards,
+      that's the biggest part. Otherwise it's just basic, I opted not to use too
+      many extensions as <strong>GNOME</strong> is notorious for having them
+      break with every major upgrade. So in essence this edition only exists
+      because of it being requested so hard. A new version will only be released
+      on major events like, New Year's, Valentine's, Easter, Thanksgiving and
+      Christmas. Not as frequently as the others. This is the last edition to be
+      added to the family. I hope you like it.
+    </p>
+
     <div class="q-mt-lg text-h4 header">- XeroLinux XFCE</div>
     <p class="q-mt-md">
       While the latter was created for all of you out there that don't have

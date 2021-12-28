@@ -10,6 +10,26 @@
 
     <About />
 
+    <q-card
+      class="
+        bg-secondary
+        text-white
+        q-ma-md
+        flex flex-center
+        text-h4
+        q-pa-lg
+        radius-16
+      "
+    >
+      New to Linux?
+      <a
+        class="q-ml-sm"
+        href="https://www.youtube.com/watch?v=tDRjxcCKksU"
+        target="_blank"
+        >Click me</a
+      >
+    </q-card>
+
     <Editions />
 
     <XeroPorn />

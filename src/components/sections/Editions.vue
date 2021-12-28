@@ -1,5 +1,5 @@
 <template>
-  <section class="edition-bg">
+  <section class="edition-bg q-pa-sm">
     <div id="editions" class="bg-blur text-h3 q-mt-sm text-center q-pa-sm">
       XeroLinux Editions
     </div>
@@ -83,6 +83,70 @@
         </q-card-section>
 
         <q-card-actions class="row justify-evenly">
+          <q-btn
+            label="Full Release notes"
+            color="accent"
+            class="btn q-ma-sm"
+            icon="note"
+            type="a"
+            href="https://forum.xerolinux.xyz/thread-14.html"
+            target="_blank"
+            style="font-size: 13px"
+          />
+          <q-btn
+            label="Download now"
+            icon="download"
+            color="accent"
+            class="btn q-ma-sm"
+            type="a"
+            href="https://sourceforge.net/projects/xerolinux/files/Releases/XFCE/xerolinux-xfce-x86_64.iso/download"
+            target="_blank"
+            style="font-size: 13px"
+          />
+          <q-btn
+            label="Installation guide"
+            color="accent"
+            icon="fas fa-file-download"
+            class="btn q-ma-sm"
+            type="a"
+            href="https://forum.xerolinux.xyz/thread-38.html"
+            target="_blank"
+            style="font-size: 13px"
+          />
+        </q-card-actions>
+      </q-card>
+
+      <!-- XFCE -->
+
+      <q-card class="edition-card card-2 radius-16">
+        <q-img
+          src="https://images-ext-1.discordapp.net/external/C2zz9ZR6x4x45NPjB2_kYcT_zioiM2SBSKbqIxbaHkc/https/media.discordapp.net/attachments/910111834206511175/925071385951358986/unknown.png"
+          spinner-color="primary"
+          spinner-size="82px"
+        />
+        <q-card-section>
+          <div class="text-h3 text-center header">XeroLinux GNOME</div>
+        </q-card-section>
+        <q-card-section>
+          You have nVidia and want to benefit from Wayland ? Have powerful
+          hardware, and prefer GNOME over other DEs ? This is for you. Minimal
+          tweaking as GNOME is notorious for having them break with every major
+          upgrade. A new version will only be released on major events like, New
+          Year's, Valentine's, Easter, Thanksgiving and Christmas. Not as
+          frequently as the others. This is the last edition to be added to the
+          family. I hope you like it.
+        </q-card-section>
+
+        <q-card-actions align="center">
+          <q-badge
+            color="negative"
+            class="text-weight-bolder text-h6 announcement-badge"
+          >
+            Coming soon
+          </q-badge>
+        </q-card-actions>
+
+        <q-card-actions v-if="false" class="row justify-evenly">
           <q-btn
             label="Full Release notes"
             color="accent"
