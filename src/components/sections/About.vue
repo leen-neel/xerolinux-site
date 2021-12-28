@@ -17,10 +17,10 @@
 
     <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
     <p class="q-mt-md">
-      The former is our "Flagship" release, it uses <strong>KDE</strong> as its
-      DE and offers a wide variety of packages to choose from during install,
-      support for a wide host of Hardware, not to mention the level of
-      customisation that KDE brings with it.
+      This is our "Flagship" release, it uses <strong>KDE</strong> as its DE and
+      offers a wide variety of packages to choose from during install, support
+      for a wide host of Hardware, not to mention the level of customisation
+      that KDE brings with it.
     </p>
 
     <div class="q-mt-lg text-h4 header">- XeroLinux GNOME</div>
@@ -38,7 +38,7 @@
 
     <div class="q-mt-lg text-h4 header">- XeroLinux XFCE</div>
     <p class="q-mt-md">
-      While the latter was created for all of you out there that don't have
+      While this one was created for all of you out there that don't have
       powerful enough hardware to run our "Flagship" release that uses tons of
       effects and other tools that use a lot of system resources. It uses
       <strong>XFCE</strong> as its DE, as it's one of the lightest out there,
@@ -53,8 +53,12 @@
       So if you have a beast Rig and want to experience my vision to its fullest
       then you can't go wrong with the "Main Edition".
     </p>
-
-    <p class="q-mt-lg">
+    <p>
+      If you have nVidia and want to benefit from Wayland, and you love GNOME,
+      also you have a powerful enough config to run it, then this is the edition
+      for you. Minimal tweaking for stability, and looks great.
+    </p>
+    <p>
       On the other hand, if performance is more important to you or your rig
       isn't powerful enough and you still want to give
       <storng>XeroLinux</storng> a try, then "XFCE Edition" is the answer for

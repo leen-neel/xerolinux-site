@@ -3,7 +3,7 @@
     <Hero />
 
     <AnnouncementBanner :hasAnnoouncement="true">
-      New: XFCE Edition is Live!!!
+      Coming soon: XeroLinux GNOME edition!
 
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>
@@ -16,18 +16,21 @@
         text-white
         q-ma-md
         flex flex-center
-        text-h4
-        q-pa-lg
+        text-h5
+        q-pa-sm
         radius-16
       "
     >
       New to Linux?
-      <a
-        class="q-ml-sm"
-        href="https://www.youtube.com/watch?v=tDRjxcCKksU"
-        target="_blank"
-        >Click me</a
-      >
+      <q-btn
+        color="white"
+        size="1em"
+        label="Click me"
+        noCaps
+        class="q-ml-sm text-underline"
+        flat
+        @click="learn = true"
+      />
     </q-card>
 
     <Editions />
@@ -36,6 +39,22 @@
 
     <Gallery />
   </q-page>
+
+  <q-dialog class="z-top" v-model="learn" pesistent>
+    <q-card>
+      <q-bar dark class="text-white">
+        <q-space />
+        <q-btn dense flat round icon="close" color="white" v-close-popup />
+      </q-bar>
+
+      <q-card-section class="flex flex-center full-height">
+        <q-video
+          src="https://www.youtube.com/embed/tDRjxcCKksU?rel=0"
+          :aspect-ratio="16 / 9"
+        />
+      </q-card-section>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script>
@@ -46,7 +65,7 @@ import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
 import XeroPorn from "src/components/sections/XeroPorn.vue";
 
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "PageIndex",
@@ -57,6 +76,11 @@ export default defineComponent({
     Gallery,
     XeroPorn,
     AnnouncementBanner,
+  },
+  setup() {
+    return {
+      learn: ref(false),
+    };
   },
 });
 </script>
