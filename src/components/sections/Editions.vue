@@ -71,11 +71,14 @@
 
         <q-card-actions v-if="true" class="row justify-evenly">
           <q-btn
-            label="Coming soon"
+            label="Release Notes"
             color="accent"
             class="btn q-ma-sm"
             icon="note"
             style="font-size: 13px"
+            type="a"
+            href="https://forum.xerolinux.xyz/thread-66.html"
+            target="_blank"
           />
           <q-btn
             label="Coming soon"
