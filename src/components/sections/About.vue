@@ -11,8 +11,8 @@
     </p>
 
     <p class="q-mt-lg">
-      It Comes in 2 flavors, "Main Edition" and "XFCE Edition". What's the
-      difference between the two you may ask ? Let me explain.
+      It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME edition".
+      What's the difference between the two you may ask? Let me explain.
     </p>
 
     <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
