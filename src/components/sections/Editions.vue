@@ -81,11 +81,14 @@
             target="_blank"
           />
           <q-btn
-            label="Coming soon"
+            label="Download"
             icon="download"
             color="accent"
             class="btn q-ma-sm"
             style="font-size: 13px"
+            type="a"
+            href="https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download"
+            target="_blank"
           />
           <q-btn
             label="Installation guide"

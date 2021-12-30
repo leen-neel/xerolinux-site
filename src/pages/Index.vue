@@ -3,7 +3,7 @@
     <Hero />
 
     <AnnouncementBanner :hasAnnoouncement="true">
-      Coming soon: XeroLinux GNOME edition!
+      GNOME ISO is live! Happy new year!!
 
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>
