@@ -71,7 +71,7 @@
 
         <q-card-actions v-if="true" class="row justify-evenly">
           <q-btn
-            label="Release Notes"
+            label="Full Release notes"
             color="accent"
             class="btn q-ma-sm"
             icon="note"
