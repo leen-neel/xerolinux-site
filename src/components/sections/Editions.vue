@@ -61,7 +61,7 @@
 
       <q-card class="edition-card card-3 radius-16">
         <q-img
-          src="https://images-ext-1.discordapp.net/external/C2zz9ZR6x4x45NPjB2_kYcT_zioiM2SBSKbqIxbaHkc/https/media.discordapp.net/attachments/910111834206511175/925071385951358986/unknown.png"
+          src="https://media.discordapp.net/attachments/910111834206511175/925071385951358986/unknown.png"
           spinner-color="primary"
           spinner-size="82px"
         />
@@ -81,7 +81,7 @@
             target="_blank"
           />
           <q-btn
-            label="Download"
+            label="Download now"
             icon="download"
             color="accent"
             class="btn q-ma-sm"

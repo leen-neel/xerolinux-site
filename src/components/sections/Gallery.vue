@@ -22,7 +22,14 @@
           img-src="https://cdn.discordapp.com/attachments/912888928749645896/917800804096806942/New.jpg"
         />
         <q-carousel-slide :name="3" img-src="https://i.imgur.com/rrPrP1d.jpg" />
-        <q-carousel-slide :name="4" img-src="https://i.imgur.com/TDU3Hgd.png" />
+        <q-carousel-slide
+          :name="4"
+          img-src="https://cdn.discordapp.com/attachments/912888928749645896/927539790113566720/shot.png"
+        />
+        <q-carousel-slide
+          :name="5"
+          img-src="https://media.discordapp.net/attachments/910111834206511175/925071385951358986/unknown.png"
+        />
       </q-carousel>
     </q-responsive>
   </div>
