@@ -107,7 +107,7 @@
 
       <q-card class="edition-card card-2 radius-16">
         <q-img
-          src="https://i.imgur.com/TDU3Hgd.png"
+          src="https://cdn.discordapp.com/attachments/912888928749645896/927539790113566720/shot.png"
           spinner-color="primary"
           spinner-size="82px"
         />
