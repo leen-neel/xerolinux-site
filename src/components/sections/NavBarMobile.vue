@@ -62,7 +62,12 @@
 
           <a href="https://forum.xerolinux.xyz/" target="_blank">
             <q-item class="text-center q-ma-sm" clickable v-close-popup>
-              <q-item-section> Forum </q-item-section>
+              <q-item-section>
+                <span class="no-padding">
+                  Forum
+                  <q-icon name="open_in_new" />
+                </span>
+              </q-item-section>
             </q-item>
           </a>
         </q-list>
