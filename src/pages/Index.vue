@@ -27,7 +27,7 @@
 
     <Editions />
 
-    <XeroPorn />
+    <Customization />
 
     <Gallery />
   </q-page>
@@ -55,7 +55,7 @@ import Editions from "src/components/sections/Editions.vue";
 import Gallery from "src/components/sections/Gallery.vue";
 import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
-import XeroPorn from "src/components/sections/XeroPorn.vue";
+import Customization from "src/components/sections/Customization.vue";
 
 import { defineComponent, ref } from "vue";
 
@@ -66,7 +66,7 @@ export default defineComponent({
     Hero,
     Editions,
     Gallery,
-    XeroPorn,
+    Customization,
     AnnouncementBanner,
   },
   setup() {

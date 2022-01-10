@@ -21,7 +21,7 @@
     />
     <q-btn
       v-if="isHome"
-      label="XeroPorn"
+      label="Customization"
       flat
       style="font-size: 18px"
       @click="xeroporn"

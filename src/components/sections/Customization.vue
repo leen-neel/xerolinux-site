@@ -1,15 +1,9 @@
 <template>
   <div id="xeroporn"></div>
-  <div class="text-h3 q-mt-xl text-center q-pa-sm">XeroPorn</div>
+  <div class="text-h3 q-mt-xl text-center q-pa-sm">Customization</div>
 
   <div
-    class="
-      row
-      flex-center
-      q-gutter-md q-mt-sm
-      col-xs-12 col-sm-6 col-md-4
-      q-pa-sm
-    "
+    class="row flex-center q-gutter-md q-mt-sm col-xs-12 col-sm-6 col-md-4 q-pa-sm"
   >
     <Rices />
     <GrubThemes />
