@@ -52,6 +52,7 @@
     />
   </div>
 
+  <!-- PC Build -->
   <q-dialog v-model="popup" class="z-top">
     <q-card class="radius-16" style="width: 85%; max-width: 90vw">
       <q-bar dark class="text-white">
@@ -68,13 +69,11 @@
         />
       </q-card-section>
 
-      <q-card-section class="row items-center">
-        <span class="q-ml-sm"
-          >That PC is my main one acting as my everyday system. I do all my
-          gaming on it. I have recently built it and all parts came from Amazon
-          UK. It's an AMD Ryzen build. Click button below to check out build
-          parts on PC Part Picker 😉
-        </span>
+      <q-card-section>
+        That PC is my main one acting as my everyday system. I do all my gaming
+        on it. I have recently built it and all parts came from Amazon UK. It's
+        an AMD Ryzen build. Click button below to check out build parts on PC
+        Part Picker 😉
       </q-card-section>
 
       <q-card-section>
@@ -103,7 +102,7 @@
         </p>
       </q-card-section>
 
-      <q-card-actions align="right">
+      <q-card-actions class="q-pa-md" align="right">
         <q-btn
           label="Learn more"
           color="accent"

@@ -75,7 +75,8 @@
     </q-btn>
   </div>
 
-  <q-dialog v-model="popup" class="z-top" maximized>
+  <!-- PC Build -->
+  <q-dialog v-model="popup" class="z-top">
     <q-card class="radius-16">
       <q-bar dark class="text-white">
         <q-space />
@@ -92,12 +93,10 @@
       </q-card-section>
 
       <q-card-section class="row items-center">
-        <span class="q-ml-sm"
-          >That PC is my main one acting as my everyday system. I do all my
-          gaming on it. I have recently built it and all parts came from Amazon
-          UK. It's an AMD Ryzen build. Click button below to check out build
-          parts on PC Part Picker 😉
-        </span>
+        That PC is my main one acting as my everyday system. I do all my gaming
+        on it. I have recently built it and all parts came from Amazon UK. It's
+        an AMD Ryzen build. Click button below to check out build parts on PC
+        Part Picker 😉
       </q-card-section>
 
       <q-card-section>
@@ -107,26 +106,7 @@
         decide otherwise.
       </q-card-section>
 
-      <q-card-section class="text-center">
-        <p class="text-negative">This build @ a glimpse</p>
-
-        <p>ASUS ROG Swift PG279Q Monitor</p>
-        <p>AsRock x570 Tai Chi | AMD Ryzen 5 3600x @ 3.8Ghz</p>
-        <p>
-          ROG STRiX GTX 1080 8Gb GDDR5X | TeamGroup Delta “R” 32GB DDR4 @3000Mhz
-          RGB
-        </p>
-        <p>
-          Corsair Obsidian 750D | Corsair RM750x (2018) | ROG Horus GK2000 RGB |
-          Logi MX Ergo TrackBall
-        </p>
-        <p>
-          Boot : 256gb SMG 960 Evo nVme | Profile Drive : 1TB SMG 860 Evo SATA |
-          Games : 1TB SMG 970 Evo nVme
-        </p>
-      </q-card-section>
-
-      <q-card-actions align="right">
+      <q-card-actions class="q-pa-md" align="center">
         <q-btn
           label="Learn more"
           color="accent"
