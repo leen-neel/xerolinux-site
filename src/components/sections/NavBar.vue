@@ -104,7 +104,14 @@
       </q-card-section>
 
       <q-card-actions align="right">
-        <q-btn label="Learn more" color="accent" to="/builds" v-close-popup />
+        <q-btn
+          label="Learn more"
+          color="accent"
+          type="a"
+          href="https://pcpartpicker.com/user/TechXero/saved/QCtmgs"
+          target="_blank"
+          v-close-popup
+        />
       </q-card-actions>
     </q-card>
   </q-dialog>
