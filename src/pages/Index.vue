@@ -2,8 +2,8 @@
   <q-page>
     <Hero />
 
-    <AnnouncementBanner :hasAnnoouncement="true">
-      GNOME ISO is live! Happy new year!!
+    <AnnouncementBanner :hasAnnoouncement="false">
+      null
 
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>
@@ -11,15 +11,7 @@
     <About />
 
     <q-card
-      class="
-        bg-secondary
-        text-white
-        q-ma-md
-        flex flex-center
-        text-h5
-        q-pa-sm
-        radius-16
-      "
+      class="bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16"
     >
       New to Linux?
       <q-btn

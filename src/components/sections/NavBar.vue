@@ -72,7 +72,7 @@
         <span class="q-ml-sm"
           >That PC is my main one acting as my everyday system. I do all my
           gaming on it. I have recently built it and all parts came from Amazon
-          UK. It’s an AMD Ryzen build. Click button below to check out build
+          UK. It's an AMD Ryzen build. Click button below to check out build
           parts on PC Part Picker 😉
         </span>
       </q-card-section>
@@ -104,7 +104,7 @@
       </q-card-section>
 
       <q-card-actions align="right">
-        <q-btn label="Learn more" color="accent" v-close-popup />
+        <q-btn label="Learn more" color="accent" to="/builds" v-close-popup />
       </q-card-actions>
     </q-card>
   </q-dialog>

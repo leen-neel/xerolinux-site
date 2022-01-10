@@ -1,18 +1,14 @@
 <template>
-  <q-badge color="negative" class="text-weight-bolder announcement-badge">
+  <q-badge
+    v-if="hasAnnoouncement"
+    color="negative"
+    class="text-weight-bolder announcement-badge"
+  >
     <slot name="badge"> </slot>
   </q-badge>
   <q-card
     v-if="hasAnnoouncement"
-    class="
-      bg-secondary
-      text-white
-      q-ma-md
-      flex flex-center
-      text-h4
-      q-pa-lg
-      radius-16
-    "
+    class="bg-secondary text-white q-ma-md flex flex-center text-h4 q-pa-lg radius-16"
   >
     <slot> </slot>
   </q-card>
