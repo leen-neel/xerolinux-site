@@ -58,10 +58,11 @@
         <q-space />
         <q-btn dense flat round icon="close" color="white" v-close-popup />
       </q-bar>
-      <q-card-section>
+      <q-card-section class="flex flex-center">
         <q-img
           src="https://techxero.com/assets/files/2021-09-23/1632436875-228477-pc-1024x579.jpg"
-          :ratio="16 / 9"
+          style="max-width: 70vw"
+          class="radius-16"
           spinner-color="primary"
           spinner-size="82px"
         />
