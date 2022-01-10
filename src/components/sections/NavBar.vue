@@ -14,7 +14,7 @@
     />
     <q-btn
       v-if="isHome"
-      label="Editions"
+      label="Download"
       flat
       style="font-size: 18px"
       @click="editions"

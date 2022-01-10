@@ -29,7 +29,7 @@
             class="text-center q-ma-sm"
             clickable
           >
-            <q-item-section> Editions </q-item-section>
+            <q-item-section> Download </q-item-section>
           </q-item>
 
           <q-item
