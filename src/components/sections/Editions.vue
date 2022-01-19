@@ -4,13 +4,7 @@
       XeroLinux Editions
     </div>
     <div
-      class="
-        row
-        flex-center
-        q-gutter-md q-my-md
-        col-xs-12 col-sm-2 col-md-2
-        q-pa-sm
-      "
+      class="row flex-center q-gutter-md q-my-md col-xs-12 col-sm-2 col-md-2 q-pa-sm"
     >
       <!-- Main -->
       <q-card class="edition-card card-1 radius-16">
