@@ -3,8 +3,6 @@
     <Hero />
 
     <AnnouncementBanner :hasAnnoouncement="false">
-      null
-
       <template v-slot:badge> Announcement </template>
     </AnnouncementBanner>
 
@@ -19,7 +17,7 @@
         size="1em"
         label="Click me"
         noCaps
-        class="q-ml-sm text-underline"
+        class="q-ml-sm"
         flat
         @click="learn = true"
       />
