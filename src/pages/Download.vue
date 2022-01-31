@@ -54,14 +54,26 @@
         </div>
 
         <div class="col-6">
-          <div id="video-laptop">
+          <!-- <div id="video-laptop">
             <iframe
               width="560"
               height="390"
-              src="https://www.youtube.com/embed/S_QemrZbOIk"
+              src="https://www.youtube.com/embed/IQn9LGyAJJ8"
               frameborder="0"
               allowfullscreen
             ></iframe>
+          </div> -->
+
+          <div>
+            <q-video
+              src="https://www.youtube.com/embed/IQn9LGyAJJ8?rel=0"
+              ratio="16 / 9"
+              class="q-mb-md"
+              id="video-monitor"
+            />
+            <div class="flex flex-center">
+              <div class="stand"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -83,22 +95,12 @@
   background-size: cover;
 }
 
-#video-laptop {
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  height: 0;
+#video-monitor {
+  border: 20px solid black;
+  border-radius: 8px;
 
-  iframe {
-    box-sizing: border-box;
-    background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
-    background-size: contain;
-    padding: 11.9% 15.5% 14.8%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  .stand {
+    background-image: url("https://cdn.discordapp.com/attachments/679648257202192384/937651133864894534/monitor_small.png");
   }
 }
 </style>
