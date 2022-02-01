@@ -2,7 +2,9 @@
   <section id="download" class="q-pa-md">
     <h2 class="text-center">Download</h2>
 
-    <h4 class="text-bold">XeroLinux {{ editions[selectedEditionID].name }}</h4>
+    <div class="text-h4 q-mb-sm text-bold">
+      XeroLinux {{ editions[selectedEditionID].name }}
+    </div>
     <div :class="{ row: $q.screen.gt.sm, column: $q.screen.lt.md }">
       <div class="col-6">
         <p>
@@ -39,7 +41,7 @@
           />
         </div>
 
-        <div class="text-h4 q-mt-md">Other Edtitions</div>
+        <div class="text-h5 text-bold q-mt-md">Other Edtitions</div>
         <div class="row q-gutter-sm q-mt-sm">
           <q-btn
             v-if="selectedEditionID !== 'kde'"
@@ -68,8 +70,17 @@
       >
         <div>
           <q-video
-            src="https://www.youtube.com/embed/IQn9LGyAJJ8?rel=0"
+            :src="editions[selectedEditionID].yt"
             class="q-mb-md"
+            v-if="selectedEditionID !== 'xfce'"
+            id="video-monitor"
+          />
+
+          <q-img
+            v-if="selectedEditionID === 'xfce'"
+            src="https://cdn.discordapp.com/attachments/912888928749645896/937981524899422238/Screenshot_2022-01-27_at_13.25.01.png"
+            spinner-color="primary"
+            spinner-size="82px"
             id="video-monitor"
           />
           <div class="flex flex-center">
@@ -95,6 +106,7 @@ export default defineComponent({
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-4.html",
+        yt: "https://www.youtube.com/embed/lGw7lspuTPo?rel=0",
       },
 
       xfce: {
@@ -111,6 +123,7 @@ export default defineComponent({
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-66.html",
+        yt: "https://www.youtube.com/embed/DlgXJ3l-Nss?rel=0",
       },
     });
 
