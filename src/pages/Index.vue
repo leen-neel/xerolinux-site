@@ -26,8 +26,6 @@
     <Download />
 
     <Customization />
-
-    <Gallery />
   </q-page>
 
   <q-dialog class="z-top" v-model="learn" pesistent>
@@ -49,7 +47,6 @@
 
 <script>
 import About from "src/components/sections/About.vue";
-import Gallery from "src/components/sections/Gallery.vue";
 import Download from "src/components/sections/Download.vue";
 import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
@@ -63,7 +60,6 @@ export default defineComponent({
     About,
     Hero,
     Download,
-    Gallery,
     Customization,
     AnnouncementBanner,
   },

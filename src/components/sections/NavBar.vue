@@ -26,13 +26,6 @@
       style="font-size: 18px"
       @click="xeroporn"
     />
-    <q-btn
-      v-if="isHome"
-      label="Gallery"
-      flat
-      style="font-size: 18px"
-      @click="gallery"
-    />
 
     <q-btn
       label="My PC Build"
@@ -144,10 +137,6 @@ export default {
         .scrollIntoView({ behavior: "smooth" });
     };
 
-    const gallery = () => {
-      document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
-    };
-
     const route = useRoute();
     const isHome = computed(() => {
       return route.fullPath == "/";
@@ -157,7 +146,7 @@ export default {
       about,
       editions,
       xeroporn,
-      gallery,
+
       home,
       isHome,
       popup,

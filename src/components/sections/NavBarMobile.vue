@@ -43,15 +43,6 @@
 
           <q-item
             v-if="isHome"
-            @click="gallery"
-            class="text-center q-ma-sm"
-            clickable
-          >
-            <q-item-section> Gallery </q-item-section>
-          </q-item>
-
-          <q-item
-            v-if="isHome"
             @click="popup = true"
             class="text-center q-ma-sm"
             clickable
@@ -148,10 +139,6 @@ export default defineComponent({
         .scrollIntoView({ behavior: "smooth" });
     };
 
-    const gallery = () => {
-      document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
-    };
-
     const route = useRoute();
     const isHome = computed(() => {
       return route.fullPath == "/";
@@ -160,7 +147,6 @@ export default defineComponent({
       about,
       editions,
       xeroporn,
-      gallery,
       home,
       popup,
       isHome,
