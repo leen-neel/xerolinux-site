@@ -76,16 +76,11 @@
             id="video-monitor"
           />
 
-          <q-img
+          <img
             v-if="selectedEditionID === 'xfce'"
             src="https://cdn.discordapp.com/attachments/912888928749645896/937981524899422238/Screenshot_2022-01-27_at_13.25.01.png"
-            spinner-color="primary"
-            spinner-size="82px"
             id="video-monitor"
           />
-          <div class="flex flex-center">
-            <div class="stand"></div>
-          </div>
         </div>
       </div>
     </div>
