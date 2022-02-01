@@ -23,7 +23,7 @@
       />
     </q-card>
 
-    <Editions />
+    <Download />
 
     <Customization />
 
@@ -49,8 +49,8 @@
 
 <script>
 import About from "src/components/sections/About.vue";
-import Editions from "src/components/sections/Editions.vue";
 import Gallery from "src/components/sections/Gallery.vue";
+import Download from "src/components/sections/Download.vue";
 import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
 import Customization from "src/components/sections/Customization.vue";
@@ -62,7 +62,7 @@ export default defineComponent({
   components: {
     About,
     Hero,
-    Editions,
+    Download,
     Gallery,
     Customization,
     AnnouncementBanner,

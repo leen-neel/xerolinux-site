@@ -134,7 +134,7 @@ export default {
 
     const editions = () => {
       document
-        .getElementById("editions")
+        .getElementById("download")
         .scrollIntoView({ behavior: "smooth" });
     };
 
