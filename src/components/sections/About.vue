@@ -12,10 +12,9 @@
 
     <p class="q-mt-lg">
       It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME edition".
-      What's the difference between the three you may ask? Let me explain.
     </p>
 
-    <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
+    <!-- <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
     <p class="q-mt-md">
       This is our "Flagship" release, it uses <strong>KDE</strong> as its DE and
       offers a wide variety of packages to choose from during install, support
@@ -45,7 +44,7 @@
       that can still be made to look great without impacting performance. Don't
       worry though, it still retains most of the main features but with a bit
       less options.
-    </p>
+    </p> -->
 
     <div class="line-icon q-my-lg"></div>
 

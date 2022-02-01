@@ -1,17 +1,42 @@
 <template>
-  <section id="download" class="q-pa-md">
-    <h2 class="text-center">Download</h2>
+  <section id="download" class="q-pa-md edition-bg">
+    <div class="flex flex-center column">
+      <div class="text-center text-h2">.:: Choose Your Edition ::.</div>
+
+      <div class="row q-gutter-sm q-mt-sm q-mb-lg">
+        <q-btn
+          v-if="selectedEditionID !== 'kde'"
+          label="KDE"
+          color="accent"
+          @click="selectedEditionID = 'kde'"
+          size="18px"
+        />
+        <q-btn
+          v-if="selectedEditionID !== 'gnome'"
+          label="GNOME"
+          color="accent"
+          @click="selectedEditionID = 'gnome'"
+          size="18px"
+        />
+        <q-btn
+          v-if="selectedEditionID !== 'xfce'"
+          label="XFCE"
+          color="accent"
+          @click="selectedEditionID = 'xfce'"
+          size="18px"
+        />
+      </div>
+    </div>
 
     <div class="text-h4 q-mb-sm text-bold">
       XeroLinux {{ editions[selectedEditionID].name }}
     </div>
+
     <div :class="{ row: $q.screen.gt.sm, column: $q.screen.lt.md }">
       <div class="col-6">
-        <p>
-          {{ editions[selectedEditionID].desc }}
-        </p>
+        <p class="q-mt-md" v-html="editions[selectedEditionID].desc"></p>
 
-        <div class="row q-gutter-sm">
+        <div class="row q-mt-md q-gutter-sm">
           <q-btn
             label="Full Release notes"
             color="accent"
@@ -40,28 +65,6 @@
             target="_blank"
           />
         </div>
-
-        <div class="text-h5 text-bold q-mt-md">Other Edtitions</div>
-        <div class="row q-gutter-sm q-mt-sm">
-          <q-btn
-            v-if="selectedEditionID !== 'kde'"
-            label="KDE"
-            color="accent"
-            @click="selectedEditionID = 'kde'"
-          />
-          <q-btn
-            v-if="selectedEditionID !== 'gnome'"
-            label="GNOME"
-            color="accent"
-            @click="selectedEditionID = 'gnome'"
-          />
-          <q-btn
-            v-if="selectedEditionID !== 'xfce'"
-            label="XFCE"
-            color="accent"
-            @click="selectedEditionID = 'xfce'"
-          />
-        </div>
       </div>
 
       <div
@@ -72,13 +75,6 @@
           <q-video
             :src="editions[selectedEditionID].yt"
             class="q-mb-md"
-            v-if="selectedEditionID !== 'xfce'"
-            id="video-monitor"
-          />
-
-          <img
-            v-if="selectedEditionID === 'xfce'"
-            src="https://cdn.discordapp.com/attachments/912888928749645896/937981524899422238/Screenshot_2022-01-27_at_13.25.01.png"
             id="video-monitor"
           />
         </div>
@@ -110,11 +106,12 @@ export default defineComponent({
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/XFCE/xerolinux-xfce-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-14.html",
+        yt: "https://www.youtube.com/embed/ew5o5svFEK0?rel=0",
       },
 
       gnome: {
         name: "GNOME",
-        desc: "This was requested hard on both Discord and Telegram. I succumb to the pressure and released it. It fully supports Wayland on nVidia cards, that's the biggest part. Otherwise it's just basic, I opted not to use too many extensions as GNOME is notorious for having them break with every major upgrade. So in essence this edition only exists because of it being requested so hard. A new version will only be released on major events like, New Year's, Valentine's, Easter, Thanksgiving and Christmas. Not as frequently as the others. This is the last edition to be added to the family. I hope you like it.",
+        desc: "<p>This was requested hard on both Discord and Telegram. I succumb to the pressure and released it. It's just a test for now to see how popular it is. If not so much will get killed off. So please do not rely on it living long. I could at any time decide to stop maintaining it. Will be announced on Social what its fate is. Keep a close eye on there.</p> <p> Thanks for understanding. </p>",
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-66.html",
@@ -131,21 +128,12 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.header {
-  height: 50vh;
-  background-image: linear-gradient(
-      180deg,
-      rgba(40, 42, 54, 0.208) 41.04%,
-      rgba(40, 42, 54, 0.95) 89.87%
-    ),
-    url(/images/hero.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #video-monitor {
   border: 15px solid black;
-  border-radius: 8px;
+  border-radius: 16px;
+}
+
+.q-btn {
+  border-radius: 16px;
 }
 </style>
