@@ -6,17 +6,14 @@
       <template v-slot:badge> Announcement </template>
 
       BTRFS & Kernel 5.16 Bug Fixed!!
-      <q-btn
-        color="white"
-        size="1em"
-        label="Click here"
-        noCaps
-        class="q-ml-sm no-padding"
-        flat
-        type="a"
+
+      <a
         href="https://forum.xerolinux.xyz/thread-78.html"
+        class="q-ml-sm"
         target="_blank"
-      />
+      >
+        Check it out!
+      </a>
     </AnnouncementBanner>
 
     <About />
