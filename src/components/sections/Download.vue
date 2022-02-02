@@ -76,10 +76,7 @@
         </div>
       </div>
 
-      <div
-        class="col-6"
-        :class="{ 'flex flex-center q-mt-md': $q.screen.lt.md }"
-      >
+      <div class="col-6 flex flex-center">
         <div>
           <!-- Video element -->
           <q-video
