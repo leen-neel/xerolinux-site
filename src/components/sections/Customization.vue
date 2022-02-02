@@ -1,6 +1,14 @@
 <template>
   <div id="xeroporn"></div>
-  <div class="text-h3 q-mt-xl text-center q-pa-sm">Customization</div>
+  <div
+    :class="{
+      'text-h2': $q.screen.gt.sm,
+      'text-h4 text-bold': $q.screen.lt.md,
+    }"
+    class="q-mt-xl text-center q-pa-sm"
+  >
+    Customization
+  </div>
 
   <div
     class="row flex-center q-gutter-md q-mt-sm col-xs-12 col-sm-6 col-md-4 q-pa-sm"

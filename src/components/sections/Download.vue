@@ -1,9 +1,17 @@
 <template>
   <section id="download" class="q-pa-md edition-bg">
     <div class="flex flex-center column">
-      <div class="text-center text-h2">.:: Choose Your Edition ::.</div>
+      <div
+        class="text-center"
+        :class="{
+          'text-h3': $q.screen.gt.sm,
+          'text-h6 text-bold': $q.screen.lt.md,
+        }"
+      >
+        .:: Choose Your Edition ::.
+      </div>
 
-      <div class="row q-gutter-sm q-mt-sm q-mb-lg">
+      <div class="row q-gutter-lg q-mt-md q-mb-lg">
         <q-btn
           v-if="selectedEditionID !== 'kde'"
           label="KDE"
@@ -36,9 +44,10 @@
       <div class="col-6">
         <p class="q-mt-md" v-html="editions[selectedEditionID].desc"></p>
 
-        <div class="row q-mt-md q-gutter-sm">
+        <!-- These buttons appear under the description on desktop -->
+        <div v-if="$q.screen.gt.sm" class="row q-mt-md q-gutter-sm">
           <q-btn
-            label="Full Release notes"
+            label="Release notes"
             color="accent"
             class="q-ma-sm"
             icon="note"
@@ -72,11 +81,47 @@
         :class="{ 'flex flex-center q-mt-md': $q.screen.lt.md }"
       >
         <div>
+          <!-- Video element -->
           <q-video
             :src="editions[selectedEditionID].yt"
             class="q-mb-md"
             id="video-monitor"
           />
+
+          <!-- These buttons appear below the video on phone -->
+          <div
+            v-if="$q.screen.lt.md"
+            class="row q-mt-md q-gutter-sm"
+            :class="{ 'flex flex-center': $q.screen.lt.md }"
+          >
+            <q-btn
+              label="Release notes"
+              color="accent"
+              class="q-ma-sm"
+              icon="note"
+              type="a"
+              :href="editions[selectedEditionID].releaseNotes"
+              target="_blank"
+            />
+            <q-btn
+              label="Download now"
+              icon="download"
+              color="accent"
+              class="q-ma-sm"
+              type="a"
+              :href="editions[selectedEditionID].downloadLink"
+              target="_blank"
+            />
+            <q-btn
+              label="Installation guide"
+              color="accent"
+              icon="fas fa-file-download"
+              class="q-ma-sm"
+              type="a"
+              href="https://forum.xerolinux.xyz/thread-38.html"
+              target="_blank"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -93,7 +138,7 @@ export default defineComponent({
     const editions = ref({
       kde: {
         name: "KDE",
-        desc: 'This is our "Flagship" release, it uses KDE as its DE and offers a wide variety of packages to choose from during install, support for a wide host of Hardware, not to mention the level of customisation that KDE brings with it.',
+        desc: '<p>This is our "Flagship" release, it uses KDE as its DE and offers a wide variety of packages to choose from during install, support for a wide host of Hardware, not to mention the level of customisation that KDE brings with it.</p> <p>This edition will be the one we will be concentrating most our efforts on, and the one that will have the biggest amount of features. It will be getting some cool standalone rices that you will be able to install with minimal effort as well as many other features.</p>  <p>Think of it as the mother of all editions 😉</p>',
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-4.html",
@@ -102,7 +147,7 @@ export default defineComponent({
 
       xfce: {
         name: "XFCE",
-        desc: "While this one was created for all of you out there that don't have powerful enough hardware to run our \"Flagship\" release that uses tons of effects and other tools that use a lot of system resources. It uses XFCE as its DE, as it's one of the lightest out there, that can still be made to look great without impacting performance. Don't worry though, it still retains most of the main features but with a bit less options.",
+        desc: "<p>This edition was created for all of you out there that don't have powerful enough hardware to run our \"Flagship\" release that uses tons of effects and other tools that use a lot of system resources. It uses XFCE as its DE, as it's one of the lightest out there, that can still be made to look great without impacting performance.</p> <p>Don't worry though, it still retains most of the main features but with a bit less options. Though it will not be getting any standalone rices, I will aim to keep it up to date with slight changes to rice here n there.</p>",
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/XFCE/xerolinux-xfce-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-14.html",
@@ -131,6 +176,7 @@ export default defineComponent({
 #video-monitor {
   border: 15px solid black;
   border-radius: 16px;
+  overflow-x: hidden;
 }
 
 .q-btn {
