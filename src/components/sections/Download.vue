@@ -1,5 +1,5 @@
 <template>
-  <section id="download" class="q-pa-md edition-bg">
+  <section id="download" class="q-pa-md edition-bg radius-16">
     <div class="flex flex-center column">
       <div
         class="text-center"
