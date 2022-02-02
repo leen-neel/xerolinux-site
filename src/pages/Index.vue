@@ -2,8 +2,21 @@
   <q-page>
     <Hero />
 
-    <AnnouncementBanner :hasAnnoouncement="false">
+    <AnnouncementBanner :hasAnnoouncement="true">
       <template v-slot:badge> Announcement </template>
+
+      BTRFS & Kernel 5.16 Bug Fixed!!
+      <q-btn
+        color="white"
+        size="1em"
+        label="Click here"
+        noCaps
+        class="q-ml-sm no-padding"
+        flat
+        type="a"
+        href="https://forum.xerolinux.xyz/thread-78.html"
+        target="_blank"
+      />
     </AnnouncementBanner>
 
     <About />
