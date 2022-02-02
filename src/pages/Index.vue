@@ -19,18 +19,10 @@
     <About />
 
     <q-card
-      class="bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16"
+      class="bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16 cursor-pointer pointer-all"
+      @click="learn = true"
     >
-      New to Linux?
-      <q-btn
-        color="white"
-        size="1em"
-        label="Click me"
-        noCaps
-        class="q-ml-sm"
-        flat
-        @click="learn = true"
-      />
+      New to Linux? Click me
     </q-card>
 
     <Download />
