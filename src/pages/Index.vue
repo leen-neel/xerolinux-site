@@ -5,15 +5,17 @@
     <AnnouncementBanner :hasAnnoouncement="true">
       <template v-slot:badge> Announcement </template>
 
-      BTRFS & Kernel 5.16 Bug Fixed!!
-
-      <a
-        href="https://forum.xerolinux.xyz/thread-78.html"
-        class="q-ml-sm"
-        target="_blank"
-      >
-        Check it out!
-      </a>
+      <p>
+        BTRFS & Kernel 5.16 Bug Fixed!!
+        <a
+          href="https://forum.xerolinux.xyz/thread-78.html"
+          class="q-ml-sm"
+          style="display: inline"
+          target="_blank"
+        >
+          Check it out!
+        </a>
+      </p>
     </AnnouncementBanner>
 
     <About />
