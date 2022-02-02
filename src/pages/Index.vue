@@ -19,10 +19,10 @@
     <About />
 
     <q-card
-      class="bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16 cursor-pointer pointer-all"
+      class="text-h4 text-bold bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16 cursor-pointer pointer-all"
       @click="learn = true"
     >
-      New to Linux? Click me
+      <p class="q-pt-md">New to Linux? Click me</p>
     </q-card>
 
     <Download />
