@@ -41,8 +41,13 @@
     </div>
 
     <div :class="{ row: $q.screen.gt.sm, column: $q.screen.lt.md }">
-      <div class="col-6">
-        <p class="q-mt-md" v-html="editions[selectedEditionID].desc"></p>
+      <div class="col-6 q-mt-md">
+        <p
+          :class="{
+            'width-control': $q.screen.gt.sm,
+          }"
+          v-html="editions[selectedEditionID].desc"
+        ></p>
 
         <!-- These buttons appear under the description on desktop -->
         <div v-if="$q.screen.gt.sm" class="row q-mt-md q-gutter-sm">
@@ -174,6 +179,10 @@ export default defineComponent({
   border: 15px solid black;
   border-radius: 16px;
   overflow-x: hidden;
+}
+
+.width-control {
+  max-width: 650px;
 }
 
 .q-btn {
