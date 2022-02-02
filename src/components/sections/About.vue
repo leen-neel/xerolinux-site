@@ -3,78 +3,44 @@
     About XeroLinux
   </div>
 
-  <div class="text-left q-pa-md q-mt-sm">
-    <p>
-      This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
-      personal project I am working on that I thought I would share, in case
-      someone out there shares my passion for building Linux.
-    </p>
-
-    <p class="q-mt-lg">
-      It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME edition".
-    </p>
-
-    <!-- <div class="q-mt-lg text-h4 header">- XeroLinux Main</div>
-    <p class="q-mt-md">
-      This is our "Flagship" release, it uses <strong>KDE</strong> as its DE and
-      offers a wide variety of packages to choose from during install, support
-      for a wide host of Hardware, not to mention the level of customisation
-      that KDE brings with it.
-    </p>
-
-    <div class="q-mt-lg text-h4 header">- XeroLinux GNOME</div>
-    <p class="q-mt-md">
-      This was requested hard on both Discord and Telegram. I succumb to the
-      pressure and released it. It fully supports Wayland on nVidia cards,
-      that's the biggest part. Otherwise it's just basic, I opted not to use too
-      many extensions as <strong>GNOME</strong> is notorious for having them
-      break with every major upgrade. So in essence this edition only exists
-      because of it being requested so hard. A new version will only be released
-      on major events like, New Year's, Valentine's, Easter, Thanksgiving and
-      Christmas. Not as frequently as the others. This is the last edition to be
-      added to the family. I hope you like it.
-    </p>
-
-    <div class="q-mt-lg text-h4 header">- XeroLinux XFCE</div>
-    <p class="q-mt-md">
-      While this one was created for all of you out there that don't have
-      powerful enough hardware to run our "Flagship" release that uses tons of
-      effects and other tools that use a lot of system resources. It uses
-      <strong>XFCE</strong> as its DE, as it's one of the lightest out there,
-      that can still be made to look great without impacting performance. Don't
-      worry though, it still retains most of the main features but with a bit
-      less options.
-    </p> -->
-
-    <div class="line-icon q-my-lg"></div>
-
-    <p>
-      So if you have a beast Rig and want to experience my vision to its fullest
-      then you can't go wrong with the "Main Edition".
-    </p>
-    <p>
-      If you have nVidia and want to benefit from Wayland, and you love GNOME,
-      also you have a powerful enough config to run it, then this is the edition
-      for you. Minimal tweaking for stability, and looks great.
-    </p>
-    <p>
-      On the other hand, if performance is more important to you or your rig
-      isn't powerful enough and you still want to give
-      <storng>XeroLinux</storng> a try, then "XFCE Edition" is the answer for
-      you.
-    </p>
-
-    <p class="q-mt-lg">As the saying goes...</p>
-
-    <q-card class="my-card">
-      <q-card-section>
-        <strong
-          >"If you can't find the best Distro for you, then BUILD YOUR
-          OWN!".</strong
-        >
-        That's the power of ArchLinux.
-      </q-card-section>
-    </q-card>
+  <div class="flex flex-center">
+    <div class="text-center q-pa-md q-mt-sm" style="max-width: 80vw">
+      <p>
+        This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
+        personal project I am working on that I thought I would share, in case
+        someone out there shares my passion for building Linux.
+      </p>
+      <p class="q-mt-lg">
+        It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME
+        edition".
+      </p>
+      <div class="line-icon q-my-lg"></div>
+      <p>
+        So if you have a beast Rig and want to experience my vision to its
+        fullest then you can't go wrong with the "Main Edition".
+      </p>
+      <p>
+        If you have nVidia and want to benefit from Wayland, and you love GNOME,
+        also you have a powerful enough config to run it, then this is the
+        edition for you. Minimal tweaking for stability, and looks great.
+      </p>
+      <p>
+        On the other hand, if performance is more important to you or your rig
+        isn't powerful enough and you still want to give
+        <storng>XeroLinux</storng> a try, then "XFCE Edition" is the answer for
+        you.
+      </p>
+      <p class="q-mt-lg">As the saying goes...</p>
+      <q-card class="my-card">
+        <q-card-section>
+          <strong
+            >"If you can't find the best Distro for you, then BUILD YOUR
+            OWN!".</strong
+          >
+          That's the power of ArchLinux.
+        </q-card-section>
+      </q-card>
+    </div>
   </div>
 </template>
 
