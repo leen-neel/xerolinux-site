@@ -8,7 +8,7 @@
   </q-badge>
   <q-card
     v-if="hasAnnoouncement"
-    class="bg-secondary text-white q-ma-md flex flex-center q-pa-lg radius-16"
+    class="bg-secondary text-white q-ma-md flex flex-center q-pa-md radius-16"
     :class="{
       'text-h4': $q.screen.gt.sm,
       'text-h6 text-bold': $q.screen.lt.md,
