@@ -4,7 +4,7 @@
   </div>
 
   <div class="flex flex-center">
-    <div class="text-center q-pa-md q-mt-sm" style="max-width: 80vw">
+    <div class="text-justify q-pa-md q-mt-sm" style="max-width: 80vw">
       <p>
         This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
         personal project I am working on that I thought I would share, in case
