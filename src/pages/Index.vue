@@ -18,33 +18,10 @@
 
     <About />
 
-    <q-card
-      class="text-h4 text-bold bg-secondary text-white q-ma-md flex flex-center text-h5 q-pa-sm radius-16 cursor-pointer pointer-all"
-      @click="learn = true"
-    >
-      <p class="q-pt-md">New to Linux? Click me</p>
-    </q-card>
-
     <Download />
 
     <Customization />
   </q-page>
-
-  <q-dialog class="z-top" v-model="learn" pesistent>
-    <q-card>
-      <q-bar dark class="text-white">
-        <q-space />
-        <q-btn dense flat round icon="close" color="white" v-close-popup />
-      </q-bar>
-
-      <q-card-section class="flex flex-center full-height">
-        <q-video
-          src="https://www.youtube.com/embed/tDRjxcCKksU?rel=0"
-          :aspect-ratio="16 / 9"
-        />
-      </q-card-section>
-    </q-card>
-  </q-dialog>
 </template>
 
 <script>
@@ -54,7 +31,7 @@ import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
 import Customization from "src/components/sections/Customization.vue";
 
-import { defineComponent, ref } from "vue";
+import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "PageIndex",
@@ -65,10 +42,12 @@ export default defineComponent({
     Customization,
     AnnouncementBanner,
   },
-  setup() {
-    return {
-      learn: ref(false),
-    };
-  },
 });
 </script>
+
+<style lang="scss" scoped>
+.new-user {
+  max-width: 80vw;
+  flex-grow: 1;
+}
+</style>
