@@ -1,10 +1,22 @@
 <template>
-  <div id="about" class="text-h2 q-mt-sm text-center q-pa-sm">
+  <div
+    id="about"
+    :class="{
+      'text-h2': $q.screen.gt.sm,
+      'text-h4 text-bold': $q.screen.lt.md,
+    }"
+    class="q-mt-sm text-center q-pa-sm"
+  >
     About XeroLinux
   </div>
 
   <div class="flex flex-center">
-    <div class="text-justify q-pa-md q-mt-sm" style="max-width: 80vw">
+    <div
+      class="text-justify q-pa-md q-mt-sm"
+      :class="{
+        'about-desc': $q.screen.gt.sm,
+      }"
+    >
       <p>
         This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
         personal project I am working on that I thought I would share, in case
@@ -45,6 +57,17 @@
 </template>
 
 <style lang="scss">
+.about-desc {
+  max-width: 97.5vw;
+  background-color: #44475a;
+  border-radius: 16px;
+  margin-bottom: 10px;
+
+  .q-card {
+    background-color: #313341;
+  }
+}
+
 .line-icon {
   box-sizing: border-box;
   position: relative;
