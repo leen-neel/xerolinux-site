@@ -10,11 +10,18 @@
     Customization
   </div>
 
-  <div
-    class="row flex-center q-gutter-md q-mt-sm col-xs-12 col-sm-6 col-md-4 q-pa-sm"
-  >
-    <Rices />
-    <GrubThemes />
+  <div :class="{ 'flex flex-center': $q.screen.gt.sm }">
+    <div
+      class="row q-gutter-md q-mt-sm col-xs-12 col-sm-6 col-md-4 q-pa-sm"
+      :class="{
+        'width-control': $q.screen.gt.sm,
+        'flex flex-center': $q.screen.lt.md,
+      }"
+    >
+      <Rices />
+      <q-space v-if="$q.screen.gt.sm" />
+      <GrubThemes />
+    </div>
   </div>
 </template>
 
@@ -30,3 +37,9 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.width-control {
+  width: 97.5vw;
+}
+</style>
