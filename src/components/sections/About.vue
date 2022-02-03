@@ -18,9 +18,9 @@
       }"
     >
       <p>
-        This is XeroLinux - an Arch-based Distro with KDE Plasma Desktop, a
-        personal project I am working on that I thought I would share, in case
-        someone out there shares my passion for building Linux.
+        This is XeroLinux - an Arch-based Distro, a personal project I am
+        working on that I thought I would share, in case someone out there
+        shares my passion for building Linux.
       </p>
       <p class="q-mt-lg">
         It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME
