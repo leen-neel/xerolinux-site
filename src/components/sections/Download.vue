@@ -22,6 +22,7 @@
             color="accent"
             @click="selectedEditionID = 'kde'"
             size="18px"
+            class="edition-btn"
           />
           <q-btn
             v-if="selectedEditionID !== 'gnome'"
@@ -29,6 +30,7 @@
             color="accent"
             @click="selectedEditionID = 'gnome'"
             size="18px"
+            class="edition-btn"
           />
           <q-btn
             v-if="selectedEditionID !== 'xfce'"
@@ -36,6 +38,7 @@
             color="accent"
             @click="selectedEditionID = 'xfce'"
             size="18px"
+            class="edition-btn"
           />
         </div>
       </div>
@@ -180,6 +183,10 @@ export default defineComponent({
   border: 15px solid black;
   border-radius: 16px;
   overflow-x: hidden;
+}
+
+.edition-btn {
+  padding: 15px 40px;
 }
 
 .width-control {
