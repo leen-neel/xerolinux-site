@@ -1,26 +1,57 @@
-# Xero Linux (xerolinux-website)
+# Xero Linux official website
 
-An Arch based Linux distro
+URL: https://xerolinux.xyz/
 
-## Install the dependencies
+This is the source code for XeroLinux's official web page.
+
+Frameworks used:
+
+- Vue JS
+- [Quasar Framework](http://quasar.dev/)
+
+How to start the project on a a local machine:
+
+- Install [Node JS](https://nodejs.org/en/download/)
+
+- Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/)
+
+- Install Vue 3:
+
+```bash
+npm i -g vue
+```
+
+- Install Quasar CLI
+
+```bash
+npm install -g @quasar/cli
+```
+
+- Clone this project and navigate into the folder:
+
+```bash
+git clone https://github.com/leen-neel/xerolinux-site
+
+cd xerolinux-site
+```
+
+- Install all required dependancies:
+
 ```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+- Start the project:
+
 ```bash
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
+If you have followed all the steps correctly, the project should compile and run properly.
 
-### Build the app for production
-```bash
-quasar build
-```
+Note: You might need to use `sudo` to install npm packages on certain platforms.
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+Additional info:
+
+- [Me](https://and249.codes/)
+- Join XeroLinux's [Discord](https://discord.gg/Xg6T78ahtK)
