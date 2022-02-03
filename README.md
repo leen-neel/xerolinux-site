@@ -6,7 +6,7 @@ This is the source code for XeroLinux's official web page.
 
 Frameworks used:
 
-- Vue JS
+- [Vue JS](https://discord.gg/Xg6T78ahtK)
 - [Quasar Framework](http://quasar.dev/)
 
 How to start the project on a a local machine:
