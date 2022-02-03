@@ -10,14 +10,14 @@
     "icons": "icongenie generate -i AppIcon.png --skip-trim"
   },
   "dependencies": {
-    "@quasar/extras": "^1.12.3",
+    "@quasar/extras": "^1.12.4",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "quasar": "^2.4.10"
+    "quasar": "^2.5.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
-    "@quasar/app": "^3.2.6",
+    "@quasar/app": "^3.3.2",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
