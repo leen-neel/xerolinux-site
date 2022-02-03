@@ -12,9 +12,7 @@ Frameworks used:
 How to start the project on a a local machine:
 
 - Install [Node JS](https://nodejs.org/en/download/)
-
 - Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/)
-
 - Install Vue 3:
 
 ```bash
