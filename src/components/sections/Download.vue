@@ -167,7 +167,7 @@ export default defineComponent({
 
       gnome: {
         name: "GNOME",
-        desc: "<p>This Edition is no more. In you are one of the few using it and love GNOME so much, please consider switching to a distro that provides it. Off the top of my head, I can recommend Manjaro, Arco, or even EndeavourOS. Whichever you select they all good. I am so sorry about that. You will find reasons behind my decision in the video to the right of this text. Thanks for understanding...</p> <p>Keep Linux Free y'all...</p>",
+        desc: "<p>This Edition is no more. In you are one of the few using it and love GNOME so much, please consider switching to a distro that provides it. Off the top of my head, I can recommend <strong>Manjaro</strong>, <strong>Arco</strong>, or even <strong>EndeavourOS</strong>. Whichever you select they all good. I am so sorry about that. You will find reasons behind my decision in the video to the right of this text. Thanks for understanding...</p> <p>Keep Linux Free y'all...</p>",
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-66.html",

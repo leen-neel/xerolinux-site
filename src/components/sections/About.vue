@@ -23,8 +23,7 @@
         shares my passion for building Linux.
       </p>
       <p class="q-mt-lg">
-        It Comes in 3 flavors, "Main Edition", "XFCE Edition" and "GNOME
-        edition".
+        It Comes in 3 flavors, "Main (KDE) Edition" and "XFCE edition".
       </p>
       <div class="line-icon q-my-lg"></div>
       <p>
