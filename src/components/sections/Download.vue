@@ -162,11 +162,11 @@ export default defineComponent({
 
       gnome: {
         name: "GNOME",
-        desc: "<p>This was requested hard on both Discord and Telegram. I succumb to the pressure and released it. It's just a test for now to see how popular it is. If not so much will get killed off. So please do not rely on it living long. I could at any time decide to stop maintaining it. Will be announced on Social what its fate is. Keep a close eye on there.</p> <p> Thanks for understanding. </p>",
+        desc: "<p>This Edition is no more. In you are one of the few using it and love GNOME so much, please consider switching to a distro that provides it. Off the top of my head, I can recommend Manjaro, Arco, or even EndeavourOS. Whichever you select they all good. I am so sorry about that. You will find reasons behind my decision in the video to the right of this text. Thanks for understanding...</p> <p>Keep Linux Free y'all...</p>",
         downloadLink:
           "https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download",
         releaseNotes: "https://forum.xerolinux.xyz/thread-66.html",
-        yt: "https://www.youtube.com/embed/DlgXJ3l-Nss?rel=0",
+        yt: "https://www.youtube.com/embed/1q41katiEa8?rel=0",
       },
     });
 
