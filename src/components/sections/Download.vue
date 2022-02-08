@@ -55,7 +55,10 @@
             v-html="editions[selectedEditionID].desc"
           ></p>
           <!-- These buttons appear under the description on desktop -->
-          <div v-if="$q.screen.gt.sm" class="row q-mt-md q-gutter-sm">
+          <div
+            v-if="$q.screen.gt.sm && selectedEditionID !== 'gnome'"
+            class="row q-mt-md q-gutter-sm"
+          >
             <q-btn
               label="Release notes"
               color="accent"
@@ -74,6 +77,7 @@
               :href="editions[selectedEditionID].downloadLink"
               target="_blank"
             />
+
             <q-btn
               label="Installation guide"
               color="accent"
@@ -95,7 +99,7 @@
             />
             <!-- These buttons appear below the video on phone -->
             <div
-              v-if="$q.screen.lt.md"
+              v-if="$q.screen.lt.md && selectedEditionID !== 'gnome'"
               class="row q-mt-md q-gutter-sm"
               :class="{ 'flex flex-center': $q.screen.lt.md }"
             >
@@ -116,6 +120,7 @@
                 type="a"
                 :href="editions[selectedEditionID].downloadLink"
                 target="_blank"
+                :disabled="selectedEditionID === 'gnome'"
               />
               <q-btn
                 label="Installation guide"
