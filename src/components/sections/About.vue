@@ -30,11 +30,7 @@
         So if you have a beast Rig and want to experience my vision to its
         fullest then you can't go wrong with the "Main Edition".
       </p>
-      <p>
-        If you have nVidia and want to benefit from Wayland, and you love GNOME,
-        also you have a powerful enough config to run it, then this is the
-        edition for you. Minimal tweaking for stability, and looks great.
-      </p>
+
       <p>
         On the other hand, if performance is more important to you or your rig
         isn't powerful enough and you still want to give
