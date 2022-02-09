@@ -1,6 +1,12 @@
 <template>
   <section class="q-my-md">
-    <div class="row q-gutter-md flex flex-center">
+    <div
+      class="q-gutter-md flex flex-center"
+      :class="{
+        row: $q.screen.gt.sm,
+        column: $q.screen.lt.md,
+      }"
+    >
       <!-- Feature 1 -->
       <div class="column feature">
         <div class="flex flex-center">
