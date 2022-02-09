@@ -7,11 +7,7 @@
           <q-icon color="primary" name="language" size="55px" />
         </div>
         <div class="text-h6 text-bold">This is XeroLinux</div>
-        <p>
-          This is XeroLinux - an Arch-based Distro, a personal project I am
-          working on that I thought I would share, in case someone out there
-          shares my passion for building Linux.
-        </p>
+        <p>A fully featured Custom Arch-Based Distro by DarkXero</p>
       </div>
 
       <div class="column feature">
