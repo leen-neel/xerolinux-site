@@ -14,7 +14,7 @@
         <div class="flex flex-center">
           <q-icon color="negative" name="rocket_launch" size="55px" />
         </div>
-        <div class="text-h6 text-bold">Large selection</div>
+        <div class="text-h6 text-bold">Multiple DEs</div>
 
         <p>
           XeroLinux Comes in 2 editions, "Main (KDE) Edition" and "XFCE
