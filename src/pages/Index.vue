@@ -18,7 +18,6 @@
     </AnnouncementBanner>
 
     <About />
-    <Features v-if="false" />
 
     <Download />
 
@@ -83,7 +82,6 @@ import Download from "src/components/sections/Download.vue";
 import Hero from "src/components/sections/Hero.vue";
 import AnnouncementBanner from "src/components/sections/AnnouncementBanner.vue";
 import Customization from "src/components/sections/Customization.vue";
-import Features from "src/components/sections/Features.vue";
 
 import { defineComponent, ref } from "vue";
 
@@ -95,7 +93,6 @@ export default defineComponent({
     Download,
     Customization,
     AnnouncementBanner,
-    Features,
   },
   setup() {
     const popup = ref(false);

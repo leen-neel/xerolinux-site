@@ -93,8 +93,8 @@
       <q-card-section>
         At this point in time, this beast is running
         <span class="text-positive">Windows 11 Pro</span> /
-        <span class="text-primary">XeroLinux Plasma</span> in Dual-Boot, until I
-        decide otherwise.
+        <span class="text-primary">XeroLinux</span> in Dual-Boot, until I decide
+        otherwise.
       </q-card-section>
 
       <q-card-actions class="q-pa-md" align="center">

@@ -35,21 +35,22 @@
             class="row q-mt-md q-gutter-sm"
           >
             <q-btn
-              label="Release notes"
-              color="accent"
-              class="q-ma-sm"
-              icon="note"
-              type="a"
-              :href="info.releaseNotes"
-              target="_blank"
-            />
-            <q-btn
               label="Download now"
               icon="download"
               color="accent"
               class="q-ma-sm"
               type="a"
               :href="info.downloadLink"
+              target="_blank"
+            />
+
+            <q-btn
+              label="Release notes"
+              color="accent"
+              class="q-ma-sm"
+              icon="note"
+              type="a"
+              :href="info.releaseNotes"
               target="_blank"
             />
 
