@@ -23,20 +23,16 @@
         shares my passion for building Linux.
       </p>
       <p class="q-mt-lg">
-        It Comes in 2 flavors, "Main (KDE) Edition" and "XFCE edition".
+        I have created it for myself first and foremost, as a hobby, in my spare
+        time, to learn the inner workings of Linux, which means it's mainly
+        compatible with the hardware I currently own.
       </p>
       <div class="line-icon q-my-lg"></div>
       <p>
-        So if you have a beast Rig and want to experience my vision to its
-        fullest then you can't go wrong with the "Main Edition".
+        The beauty of Linux is, you can fix various issues yourself, with enough
+        knowledge.
       </p>
 
-      <p>
-        On the other hand, if performance is more important to you or your rig
-        isn't powerful enough and you still want to give
-        <storng>XeroLinux</storng> a try, then "XFCE Edition" is the answer for
-        you.
-      </p>
       <p class="q-mt-lg">As the saying goes...</p>
       <q-card class="my-card">
         <q-card-section>

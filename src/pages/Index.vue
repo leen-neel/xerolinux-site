@@ -17,8 +17,8 @@
       </p>
     </AnnouncementBanner>
 
-    <About v-if="false" />
-    <Features />
+    <About />
+    <Features v-if="false" />
 
     <Download />
 

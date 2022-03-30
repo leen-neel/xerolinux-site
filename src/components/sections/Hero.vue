@@ -82,7 +82,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/bgs/heroBG.png");
+  background-image: url("/images/hero.jpg");
   height: 100vh;
 }
 
