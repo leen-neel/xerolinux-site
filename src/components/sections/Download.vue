@@ -104,7 +104,7 @@
     </section>
   </div>
 
-  <!-- Note -->
+  <!-- FAQs -->
   <q-dialog v-model="popup" class="z-top">
     <q-card class="radius-16" style="width: 85%; max-width: 90vw">
       <q-bar dark class="text-white">
@@ -113,15 +113,17 @@
       </q-bar>
 
       <q-card-section>
-        <p class="text-h5"><strong>Dear XeroLinux users,</strong></p>
+        <p class="text-h5"><strong>XeroLinux FAQ & Guides</strong></p>
         <p>
-          XeroLinux was born as a KDE only Distro. No WMs please, do not request
-          any. The more I add the further it will drift from original vision of
-          do one thing and do it good.
+          Here's where we will be posting links to guides and FAQs to help you
+          install XeroLinux and solve most of the potential issues you might run
+          into..
         </p>
+
+        <p>This will grow with thime, keep checking back...</p>
       </q-card-section>
 
-      <q-card-section>
+      <q-card-section class="faqs">
         <ul>
           <li>
             <a
@@ -232,6 +234,7 @@
       </q-card-section>
     </q-card>
   </q-dialog>
+  <!-- End of FAQs -->
 </template>
 
 <script>
@@ -263,6 +266,12 @@ export default defineComponent({
   border: 15px solid black;
   border-radius: 16px;
   overflow-x: hidden;
+}
+
+.faqs {
+  ul {
+    list-style: disc !important;
+  }
 }
 
 .edition-btn {
