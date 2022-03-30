@@ -27,8 +27,9 @@
         time, to learn the inner workings of Linux, which means it's mainly
         compatible with the hardware I currently own.
       </p>
-      <div class="disclaimer">
-        Disclaimer, please <span @click="popup = true">read</span>
+      <div class="disclaimer text-lg">
+        Disclaimer, please
+        <q-btn color="primary" label="Read" @click="popup = true" size="md" />
       </div>
       <p>
         The beauty of Linux is, you can fix various issues yourself, with enough
@@ -50,14 +51,14 @@
 
   <!-- FAQs -->
   <q-dialog v-model="popup" class="z-top">
-    <q-card class="radius-16" style="width: 85%; max-width: 90vw">
+    <q-card class="radius-16 bg-red-9" style="width: 85%; max-width: 90vw">
       <q-bar dark class="text-white">
         <q-space />
         <q-btn dense flat round icon="close" color="white" v-close-popup />
       </q-bar>
 
       <q-card-section>
-        <p class="text-h5"><strong>XeroLinux Disclaimer</strong></p>
+        <p class="text-h4"><strong>XeroLinux Disclaimer</strong></p>
         <p>
           Please read this carefully to understand more about what this project
           is and what it entails.
@@ -65,7 +66,7 @@
       </q-card-section>
 
       <q-card-section>
-        <div class="text-weight-bold text-underline">Disclaimer</div>
+        <div class="text-weight-bold q-mb-md text-h5">Disclaimer</div>
         <p>
           This Distro is a private project that I have created for myself first
           and foremost, as a hobby, in my spare time, to learn the inner
@@ -80,7 +81,7 @@
       </q-card-section>
 
       <q-card-section>
-        <div class="text-weight-bold text-underline">
+        <div class="text-weight-bold q-mb-md text-h5">
           What does it mean for you?
         </div>
         <p>
@@ -97,7 +98,7 @@
       </q-card-section>
 
       <q-card-section>
-        <div class="text-weight-bold text-underline">
+        <div class="text-weight-bold q-mb-md text-h5">
           No DE Requests Accepted
         </div>
         <p>
@@ -108,7 +109,7 @@
       </q-card-section>
 
       <q-card-section>
-        <div class="text-weight-bold text-underline">
+        <div class="text-weight-bold q-mb-md text-h5">
           AUR Packages on Xero Repos
         </div>
         <p>
@@ -119,7 +120,7 @@
       </q-card-section>
 
       <q-card-section>
-        <div class="text-weight-bold text-underline">
+        <div class="text-weight-bold q-mb-md text-h5">
           What will NOT be supported
         </div>
         <p>
@@ -204,21 +205,29 @@ export default defineComponent({
 }
 
 .disclaimer {
-  width: 100%;
+  overflow: hidden;
   text-align: center;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 30px 0 30px 0;
-  font-size: larger;
+  margin: 20px 0 20px 0;
 }
 
-.disclaimer span {
-  text-decoration: underline;
-  font-weight: 900;
-  cursor: pointer;
+.disclaimer:before,
+.disclaimer:after {
+  background-color: #d6d6d6;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
 
-  &:hover {
-    text-decoration: none;
-  }
+.disclaimer:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.disclaimer:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 </style>
