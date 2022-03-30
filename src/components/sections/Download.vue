@@ -13,46 +13,21 @@
             'text-h6 text-bold': $q.screen.lt.md,
           }"
         >
-          .:: Choose Your Edition ::.
-        </div>
-        <div class="row q-gutter-lg q-mt-md q-mb-lg">
-          <q-btn
-            v-if="selectedEditionID !== 'kde'"
-            label="KDE"
-            color="accent"
-            @click="selectedEditionID = 'kde'"
-            size="18px"
-            class="edition-btn"
-          />
-          <q-btn
-            v-if="selectedEditionID !== 'gnome'"
-            label="GNOME"
-            color="accent"
-            @click="selectedEditionID = 'gnome'"
-            size="18px"
-            class="edition-btn"
-          />
-          <q-btn
-            v-if="selectedEditionID !== 'xfce'"
-            label="XFCE"
-            color="accent"
-            @click="selectedEditionID = 'xfce'"
-            size="18px"
-            class="edition-btn"
-          />
+          .:: Download XeroLinux ::.
         </div>
       </div>
-      <div class="text-h4 q-mb-sm text-bold">
-        XeroLinux {{ editions[selectedEditionID].name }}
-      </div>
-      <div :class="{ row: $q.screen.gt.sm, column: $q.screen.lt.md }">
+
+      <div
+        class="q-mt-lg"
+        :class="{ row: $q.screen.gt.sm, column: $q.screen.lt.md }"
+      >
         <div class="col-6 q-mt-md">
           <p
             class="text-justify"
             :class="{
               'width-control': $q.screen.gt.sm,
             }"
-            v-html="editions[selectedEditionID].desc"
+            v-html="info.desc"
           ></p>
           <!-- These buttons appear under the description on desktop -->
           <div
@@ -65,7 +40,7 @@
               class="q-ma-sm"
               icon="note"
               type="a"
-              :href="editions[selectedEditionID].releaseNotes"
+              :href="info.releaseNotes"
               target="_blank"
             />
             <q-btn
@@ -74,7 +49,7 @@
               color="accent"
               class="q-ma-sm"
               type="a"
-              :href="editions[selectedEditionID].downloadLink"
+              :href="info.downloadLink"
               target="_blank"
             />
 
@@ -92,11 +67,7 @@
         <div class="col-6 flex flex-center">
           <div>
             <!-- Video element -->
-            <q-video
-              :src="editions[selectedEditionID].yt"
-              class="q-mb-md"
-              id="video-monitor"
-            />
+            <q-video :src="info.yt" class="q-mb-md" id="video-monitor" />
             <!-- These buttons appear below the video on phone -->
             <div
               v-if="$q.screen.lt.md && selectedEditionID !== 'gnome'"
@@ -109,7 +80,7 @@
                 class="q-ma-sm"
                 icon="note"
                 type="a"
-                :href="editions[selectedEditionID].releaseNotes"
+                :href="info.releaseNotes"
                 target="_blank"
               />
               <q-btn
@@ -118,9 +89,8 @@
                 color="accent"
                 class="q-ma-sm"
                 type="a"
-                :href="editions[selectedEditionID].downloadLink"
+                :href="info.downloadLink"
                 target="_blank"
-                :disabled="selectedEditionID === 'gnome'"
               />
               <q-btn
                 label="Installation guide"
@@ -146,38 +116,18 @@ export default defineComponent({
   setup() {
     const selectedEditionID = ref("kde");
 
-    const editions = ref({
-      kde: {
-        name: "KDE",
-        desc: '<p>This is our "Flagship" release, it uses KDE as its DE and offers a wide variety of packages to choose from during install, support for a wide host of Hardware, not to mention the level of customisation that KDE brings with it.</p> <p>This edition will be the one we will be concentrating most our efforts on, and the one that will have the biggest amount of features. It will be getting some cool standalone rices that you will be able to install with minimal effort as well as many other features.</p>  <p>Think of it as the mother of all editions 😉</p>',
-        downloadLink:
-          "https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-x86_64.iso/download",
-        releaseNotes: "https://forum.xerolinux.xyz/thread-4.html",
-        yt: "https://www.youtube.com/embed/lGw7lspuTPo?rel=0",
-      },
-
-      xfce: {
-        name: "XFCE",
-        desc: "<p>This edition was created for all of you out there that don't have powerful enough hardware to run our \"Flagship\" release that uses tons of effects and other tools that use a lot of system resources. It uses XFCE as its DE, as it's one of the lightest out there, that can still be made to look great without impacting performance.</p> <p>Don't worry though, it still retains most of the main features but with a bit less options. Though it will not be getting any standalone rices, I will aim to keep it up to date with slight changes to rice here n there.</p>",
-        downloadLink:
-          "https://sourceforge.net/projects/xerolinux/files/Releases/XFCE/xerolinux-xfce-x86_64.iso/download",
-        releaseNotes: "https://forum.xerolinux.xyz/thread-14.html",
-        yt: "https://www.youtube.com/embed/ew5o5svFEK0?rel=0",
-      },
-
-      gnome: {
-        name: "GNOME",
-        desc: "<p>This Edition is no more. In you are one of the few using it and love GNOME so much, please consider switching to a distro that provides it. Off the top of my head, I can recommend <strong>Manjaro</strong>, <strong>Arco</strong>, or even <strong>EndeavourOS</strong>. Whichever you select they all good. I am so sorry about that. You will find reasons behind my decision in the video to the right of this text. Thanks for understanding...</p> <p>Keep Linux Free y'all...</p>",
-        downloadLink:
-          "https://sourceforge.net/projects/xerolinux/files/Releases/GNOME/xerolinux-gnome-x86_64.iso/download",
-        releaseNotes: "https://forum.xerolinux.xyz/thread-66.html",
-        yt: "https://www.youtube.com/embed/1q41katiEa8?rel=0",
-      },
+    const info = ref({
+      name: "KDE",
+      desc: '<p>This is our "Flagship" release, it uses KDE as its DE and offers a wide variety of packages to choose from during install, support for a wide host of Hardware, not to mention the level of customisation that KDE brings with it.</p> <p>This edition will be the one we will be concentrating most our efforts on, and the one that will have the biggest amount of features. It will be getting some cool standalone rices that you will be able to install with minimal effort as well as many other features.</p>',
+      downloadLink:
+        "https://sourceforge.net/projects/xerolinux/files/Releases/Main/xerolinux-main-x86_64.iso/download",
+      releaseNotes: "https://forum.xerolinux.xyz/thread-4.html",
+      yt: "https://www.youtube.com/embed/lGw7lspuTPo?rel=0",
     });
 
     return {
       selectedEditionID,
-      editions,
+      info,
     };
   },
 });
